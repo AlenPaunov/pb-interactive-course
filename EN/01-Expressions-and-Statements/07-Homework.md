@@ -461,3 +461,130 @@ public class Program
 |-------------------|--------|
 |7|Area = 153.9380400259<br>Perimeter = 43.9822971502571|
 [/slide]
+
+[slide]
+# Problem: Person Info
+[code-task title="Person Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program, which:
+  * Reads 4 lines of **strings**: first name, last name, country and town 
+  * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|Kelly<br>Smith<br>Ireland<br>Cork|Kelly Smith from Ireland - Cork!|
+[/slide]
+
+[slide]
+# Solution: Person Info
+[code-task title="Person Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      string firstName = Console.ReadLine();
+      string lastName = Console.ReadLine();
+      string country = Console.ReadLine();
+      string town = Console.ReadLine();
+      Console.WriteLine($"{firstName} {lastName} from {country} - {town}!");
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program, which:
+  * Reads 4 lines of **strings**: first name, last name, country and town 
+  * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|Kelly<br>Smith<br>Ireland<br>Cork|Kelly Smith from Ireland - Cork!|
+[/slide]
+
+[slide]
+# Problem: Town Info
+[code-task title="Town Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program, which:
+  * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
+  * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|Berlin<br>3675000<br>984|Town Berlin has population of 3675000 and area 984 square km.|
+[/slide]
+
+[slide]
+# Solution: Town Info
+[code-task title="Town Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      string townName = Console.ReadLine();
+      int population = int.Parse(Console.ReadLine());
+      int area = int.Parse(Console.ReadLine()); 
+      Console.WriteLine("Town {0} has population of {1} and area {2} square km.", townName, population, area);
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program, which:
+  * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
+  * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|Berlin<br>3675000<br>984|Town Berlin has population of 3675000 and area 984 square km.|
+[/slide]
