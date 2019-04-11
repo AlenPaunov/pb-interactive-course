@@ -129,3 +129,29 @@ public class Program
 [code-io /]
 [/code-task]
 [/slide]
+
+[slide]
+# Solution: Greeting
+[code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      string name = Console.ReadLine();
+      Console.Write("Hello, ");
+      Console.WriteLine(name);
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a **program**, which:
+  * Reads a user input: **name**, from the console
+  * Prints "**Hello, {name}**", where {**name**} is the **user input**
+[/task-description]
+[code-io /]
+[/code-task]
+[/slide]
