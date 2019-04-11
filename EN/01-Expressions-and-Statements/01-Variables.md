@@ -1,4 +1,3 @@
-# 01.Variables
 [slide]
 
 # How Computing Works?
