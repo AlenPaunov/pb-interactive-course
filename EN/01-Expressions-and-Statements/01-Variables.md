@@ -8,7 +8,6 @@
 [/slide]
 
 [slide]
-
 # Variables
 * A **variable** is a container for data
   * The data can be read and changed at any time
@@ -16,11 +15,7 @@
   * **Storing** data
   * **Retrieving** stored data
   * **Modifying** stored data
-
-[/slide]
-
-[slide]
-# Variables
+  
 * Variables are characterized by:
   * name (identifier)
   * type (of the information preserved)
@@ -29,12 +24,6 @@
 ```csharp
 int age = 25;
 ```
-
-[/slide]
-
-[slide]
-# Variables
-
 * Variable == named area of the computer memory
   * Stores a value of a particular data type
   * Accessible in the program by name
@@ -43,5 +32,4 @@ int age = 25;
     * In the execution stack
   * Dynamic memory
     * In the heap
-
 [/slide]
