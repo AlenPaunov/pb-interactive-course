@@ -110,7 +110,6 @@ Console.WriteLine(centimeters);
 # Problem: Greeting
 [code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
-```
 using System;
 public class Program
 {
@@ -119,7 +118,6 @@ public class Program
       // Write code here
     }
 }
-```
 [/code-editor]
 [task-description]
 * Write a **program**, which:
