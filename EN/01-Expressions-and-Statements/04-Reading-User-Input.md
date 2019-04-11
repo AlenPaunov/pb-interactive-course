@@ -155,3 +155,20 @@ public class Program
 [code-io /]
 [/code-task]
 [/slide]
+
+[slide]
+# Concatenating Text and Numbers
+```csharp
+string firstName = "John";
+string lastName = "Doe";
+int age = 34;
+string str = firstName + " " + lastName + " | " + age;
+Console.WriteLine(str); // John Doe | 34
+```
+```csharp
+int a = 5;
+int b = 11;
+string str = "a + b = " + a + b;
+Console.WriteLine(str); // a + b = 511
+```
+[/slide]
