@@ -93,5 +93,33 @@ int num = int.Parse(Console.ReadLine());
 [slide]
 
 # Reading Floating-Point Numbers
-
+* Reading a floating-point number:
+```csharp
+double num = double.Parse(Console.ReadLine());
+```
+* Example: 
+  * Convert inches to centimeters
+```csharp
+double inches = double.Parse(Console.ReadLine());
+double centimeters = inches * 2.54;
+Console.WriteLine(centimeters);
+```
 [/slide]
+
+[code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+[/task-description]
+[code-io /]
+[/code-task]
