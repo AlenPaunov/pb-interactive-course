@@ -6,7 +6,7 @@
   * Displays text data (text lines)
   * Reads user input (text lines)
 
-[image src="../../assets/expressions-and-statements-1.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statemets-1.png"/]
 
 [/slide]
 
@@ -69,7 +69,7 @@ Console.WriteLine(name);
 ```
 * The result from the execution would be:
 
-[image src="../../assets/expressions-and-statements-2.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statemets-2.png"/]
 
 [/slide]
 
