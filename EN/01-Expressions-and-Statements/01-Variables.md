@@ -20,7 +20,7 @@
 [/slide]
 
 [slide]
-
+# Variables
 * Variables are characterized by:
   * name (identifier)
   * type (of the information preserved)
@@ -33,6 +33,7 @@ int age = 25;
 [/slide]
 
 [slide]
+# Variables
 
 * Variable == named area of the computer memory
   * Stores a value of a particular data type
