@@ -26,7 +26,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|15<br>2|7.5  | 
+|15<br>2|7.5| 
 [/slide]
 
 [slide]
@@ -60,7 +60,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|15<br>2|7.5  | 
+|15<br>2|7.5| 
 [/slide]
 
 [slide]
@@ -91,7 +91,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|17|14.96 | 
+|17|14.96| 
 |87|76.56|
 [/slide]
 
@@ -125,7 +125,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|17|14.96 | 
+|17|14.96| 
 |87|76.56|
 [/slide]
 
@@ -158,7 +158,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|21|53.34 | 
+|21|53.34| 
 |71|180.34|
 [/slide]
 
@@ -224,7 +224,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|5<br>10|25.00 | 
+|5<br>10|25,00 | 
 [/slide]
 
 [slide]
@@ -258,7 +258,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|5<br>10|25.00 | 
+|5<br>10|25,00 | 
 [/slide]
 
 [slide]
@@ -290,8 +290,7 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|5<br>10|5 + 10 = 15<br>5 - 10 = -5<br>5 * 10 = 50<br>5 / 10 = 0.5
- | 
+|5<br>10|5 + 10 = 15<br>5 - 10 = -5<br>5 * 10 = 50<br>5 / 10 = 0.5| 
 [/slide]
 
 [slide]
@@ -327,6 +326,138 @@ public class Program
 
 |       Input       | Output |
 |-------------------|--------|
-|5<br>10|5 + 10 = 15<br>5 - 10 = -5<br>5 * 10 = 50<br>5 / 10 = 0.5
- | 
+|5<br>10|5 + 10 = 15<br>5 - 10 = -5<br>5 * 10 = 50<br>5 / 10 = 0.5| 
+[/slide]
+
+[slide]
+# Problem: Days to Minutes
+[code-task title="Days to Minutes" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program to convert from days to minutes:
+  * Read a single **integer** (the **days** to be converted)
+  * Convert the days to minutes (use calculations)
+  * Print the **minutes**
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|2|2880|
+|5|7200|
+[/slide]
+
+[slide]
+# Solution: Days to Minutes
+[code-task title="Days to Minutes" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      int days = int.Parse(Console.ReadLine());
+      int hours = days * 24;
+      int minutes = hours * 60;
+      Console.WriteLine(minutes);
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program to convert from days to minutes:
+  * Read a single **integer** (the **days** to be converted)
+  * Convert the days to minutes (use calculations)
+  * Print the **minutes**
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|2|2880|
+|5|7200|
+[/slide]
+
+[slide]
+# Problem: Circle Area and Perimeter
+[code-task title="Circle Area and Perimeter" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program to calculate a circle area and perimeter:
+  * Read a floating-point number: the radius of a circle
+  * Calculate the area and perimeter of a circle
+  * Print the calculated values
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|7|Area = 153.9380400259<br>Perimeter = 43.9822971502571|
+[/slide]
+
+[slide]
+# Solution: Circle Area and Perimeter
+[code-task title="Circle Area and Perimeter" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      double radius = double.Parse(Console.ReadLine());
+      double area = radius * radius * Math.PI;
+      double perimeter = 2 * Math.PI * radius;
+      Console.WriteLine($"Area = {area}");
+      Console.WriteLine($"Perimeter = {perimeter}");
+    }
+}
+```
+[/code-editor]
+[task-description]
+* Write a program to calculate a circle area and perimeter:
+  * Read a floating-point number: the radius of a circle
+  * Calculate the area and perimeter of a circle
+  * Print the calculated values
+[/task-description]
+[code-io /]
+[/code-task]
+
+## Sample Input and Output
+
+|       Input       | Output |
+|-------------------|--------|
+|7|Area = 153.9380400259<br>Perimeter = 43.9822971502571|
 [/slide]
