@@ -106,6 +106,8 @@ Console.WriteLine(centimeters);
 ```
 [/slide]
 
+[slide]
+# Problem: Greeting
 [code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 using System;
@@ -124,3 +126,5 @@ public class Program
 [/task-description]
 [code-io /]
 [/code-task]
+
+[/slide]
