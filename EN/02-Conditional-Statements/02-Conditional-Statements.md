@@ -11,4 +11,4 @@ if humidity is greater than 90%
 else
   Water the plants
 ```
-[/slide]s
+[/slide]

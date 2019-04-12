@@ -27,6 +27,7 @@ Console.WriteLine(age);
 [/slide]
 
 [slide]
+# Expressions
 * **Expressions** == **variables** and **values**, combined with **operators**
 ```csharp
 a = b * 2;
