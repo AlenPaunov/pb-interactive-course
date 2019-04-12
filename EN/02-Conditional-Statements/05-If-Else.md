@@ -139,7 +139,7 @@ public class Program
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|4<br>8|Greater number: 8|
+|4 8|Greater number: 8|
 [/slide]
 
 [slide]
