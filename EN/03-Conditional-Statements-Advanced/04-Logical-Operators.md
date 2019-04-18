@@ -85,3 +85,68 @@ public class Program
 |-----|------|
 |4|19|
 [/slide]
+
+[slide]
+# Logical OR (||)
+- The result of the expression is ***true*** if one of the operands is ***true***, otherwise the result is ***false***
+```csharp
+s == "tea" || s == "water" || s == "spaghetti"
+```
+[/slide]
+
+[slide]
+# Problem: Food or Drink
+[code-task title="Food or Drink" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Read single line and print "***drink***", "***food***" or "***unknown***"
+- Foods: curry, noodles, sushi, spaghetti 
+- Drinks: tea, water, coffee
+- Everything else is unknown
+[/task-description]
+[code-io /]
+[/code-task]
+[/slide]
+
+[slide]
+# Solution: Food or Drink
+[code-task title="Food or Drink" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      string s = Console.ReadLine();
+      if (s == "curry" || s == "noodles" || 
+          s == "sushi" || s == "spaghetti")
+        Console.WriteLine("food");
+      else if (s == "tea" || s == "water" || s == "coffee")
+        Console.WriteLine("drink");
+      else
+        Console.WriteLine("unknown");
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Read single line and print "***drink***", "***food***" or "***unknown***"
+- Foods: curry, noodles, sushi, spaghetti 
+- Drinks: tea, water, coffee
+- Everything else is unknown
+[/task-description]
+[code-io /]
+[/code-task]
+[/slide]
