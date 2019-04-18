@@ -60,3 +60,49 @@ public class Program
 |Banana<br>Weekday|2.50|
 
 [/slide]
+
+[slide]
+# Solution: Marketplace
+[code-task title="Marketplace" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      if (product == "Banana")
+        if (dayOfWeek == "Weekday")
+            Console.WriteLine("2.50");
+        else
+            Console.WriteLine("2.70");
+      else if (product == "Apple")
+        if (dayOfWeek == "Weekday")
+            Console.WriteLine("1.30");
+        else
+            Console.WriteLine("1.60");
+      // TODO: Implement case for the kiwi
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Read a **product** and **day** from the console
+- Print the **price**, formatted to 2nd digit, based on the price table:
+[/task-description]
+[code-io /]
+[/code-task]
+
+|Product|Weekday|Weekend| 
+|-------|-------|-------|
+|Banana|2.50|2.70|
+|Apple|1.30|1.60|
+|Kiwi|2.20|3.00|
+
+# Sample Input and Output
+
+|Input|Output|
+|-----|------|
+|Banana<br/>Weekday|2.50|
+
+[/slide]
