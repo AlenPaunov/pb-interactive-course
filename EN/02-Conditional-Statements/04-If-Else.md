@@ -16,7 +16,7 @@ else
 [slide]
 # Block of Code
 * The curly brackets ***{}*** introduce a **block** (a group of commands)
-In case the ***if*** statement does **not** have curly brackets, only the code on the **next line** will be executed
+In case the ***if*** statement does **not** have curly brackets, only the code on the **next line** will be executed
 ```csharp
 string color = "red";
 if (color == "red") 
