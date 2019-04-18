@@ -1,8 +1,4 @@
 [slide]
-# Review
-[/slide]
-
-[slide]
 # Comparison Operators
 - Comparison operators work for **numbers**, **dates** and other **comparable data types**
   - Equal to (**==**), works also for **strings**
