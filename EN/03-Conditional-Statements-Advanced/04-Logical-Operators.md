@@ -150,3 +150,16 @@ public class Program
 [code-io /]
 [/code-task]
 [/slide]
+
+[slide]
+# Logical NOT (!)
+- Returns ***true***, if the operand is ***false***, and ***false***, if the operand is ***true***
+- Example:
+  - Number is valid if is in the range [100…200] or is equal to 0
+```csharp
+bool inRange = (num >= 100 && num <= 200) || 
+              num == 0;
+if (!inRange)
+  Console.WriteLine("invalid");
+```
+[/slide]
