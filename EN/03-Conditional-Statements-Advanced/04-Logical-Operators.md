@@ -10,5 +10,5 @@
 
 [slide]
 # Logical Operators: Explanation
-
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/03-conditional-statements-advanced/assets/03-conditional-statements-advanced-1.png"/]
 [/slide]
