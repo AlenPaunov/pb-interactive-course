@@ -57,7 +57,7 @@ public class Program
 
 |Input|Output|
 |-----|------|
-|Banana<br>Weekday|2.50|
+|Banana<br/>Weekday|2.50|
 
 [/slide]
 
@@ -104,5 +104,80 @@ public class Program
 |Input|Output|
 |-----|------|
 |Banana<br/>Weekday|2.50|
+
+[/slide]
+
+[slide]
+# Problem: Biggest Number of Three
+[code-task title="Biggest Number of Three" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Read **3 numbers** from the console
+- Print **the biggest** number
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+
+|Input|Output|
+|-----|------|
+|1<br/>2<br/>3|3|
+|-1<br/>-5<br/>-9|-1|
+|1<br/>5<br/>3|5|
+
+[/slide]
+
+[slide]
+# Solution: Biggest Number of Three
+[code-task title="Biggest Number of Three" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      if (first > second)
+        if (first > third)
+          Console.WriteLine(first);
+          // first > second first > third
+        else
+          Console.WriteLine(third);
+          // third >= first > second
+      else
+        if (second > third)
+          Console.WriteLine(second);
+          // second >= first second > third
+        else
+          Console.WriteLine(third);
+          // third >= second >= first
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Read **3 numbers** from the console
+- Print **the biggest** number
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+
+|Input|Output|
+|-----|------|
+|1<br/>2<br/>3|3|
+|-1<br/>-5<br/>-9|-1|
+|1<br/>5<br/>3|5|
 
 [/slide]
