@@ -417,3 +417,215 @@ public class Program
 |3<br>3<br>6<br>9|33.33%<br>100.00%<br>0.00%|
 |3<br>4<br>6<br>3|66.67%<br>66.67%<br>33.33%|
 [/slide]
+
+[slide]
+# Problem: Vowel Sum
+[code-task title="Vowel Sum" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads n - the count of characters:
+    - If character is vowel adds its value to the result
+
+    |character|a|e|i|o|u|
+    |---------|-|-|-|-|-|
+    |value|1|2|3|4|5|
+
+    - Prints the result
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|2<br>a<br>g|1|
+|2<br>i<br>u|8|
+[/slide]
+
+[slide]
+# Solution: Vowel Sum
+[code-task title="Vowel Sum" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        int vowelSum = 0;
+        for (int i = 0; i < n; i++) {
+        char letter = char.Parse(Console.ReadLine());
+        switch (letter)
+        {
+            case 'a': vowelSum += 1; break;
+            case 'e': vowelSum += 2; break;
+            // TODO: Add the other cases
+        }
+        }
+        Console.WriteLine(vowelSum);
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads n - the count of characters:
+    - If character is vowel adds its value to the result
+
+    |character|a|e|i|o|u|
+    |---------|-|-|-|-|-|
+    |value|1|2|3|4|5|
+
+    - Prints the result
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|2<br>a<br>g|1|
+|2<br>i<br>u|8|
+[/slide]
+
+[slide]
+# Problem: Rollercoaster
+[code-task title="Rollercoaster" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads rollercoaster places, minimum age, count of people on the queue and age for each person
+    - If all places are taken, prints - "The rollercoaster departures"
+    - In other case, prints "Waiting..."
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1<br>10<br>1<br>15|The rollercoaster departures|
+[/slide]
+
+[slide]
+# Solution: Rollercoaster
+[code-task title="Rollercoaster" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        int rollercoasterPlaces = int.Parse(Console.ReadLine());
+        int minAge = int.Parse(Console.ReadLine());
+        int peopleCount = int.Parse(Console.ReadLine());
+        int validPeopleCount = 0;
+        for (int i = 0; i < peopleCount; i++) {
+        int personAge = int.Parse(Console.ReadLine());
+        if (personAge >= minAge 
+            && rollercoasterPlaces > validPeopleCount)
+            validPeopleCount++;
+        } 
+        // TODO: Print the result
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads rollercoaster places, minimum age, count of people on the queue and age for each person
+    - If all places are taken, prints - "The rollercoaster departures"
+    - In other case, prints "Waiting..."
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1<br>10<br>1<br>15|The rollercoaster departures|
+[/slide]
+
+[slide]
+# Problem: Multiply
+[code-task title="Multiply" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+    - Reads n 
+    - Prints n's multiples in the format "{n} x {i} = {result}"
+    - Where i are the numbers from 1 to 10 (inclusive)
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1|2 x 1 = 2<br>2 x 2 = 4<br>2 x 3 = 6<br>2 x 4 = 8<br>2 x 5 = 10<br>2 x 6 = 12<br>2 x 7 = 14<br>2 x 8 = 16<br>2 x 9 = 18<br>2 x 10 = 20|
+[/slide]
+
+[slide]
+# Problem: Multiply
+[code-task title="Multiply" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        for (int i = 1; i <= 10; i++)
+        {
+        int result = n * i;
+        Console.WriteLine($"{n} x {i} = {result}");
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+    - Reads n 
+    - Prints n's multiples in the format "{n} x {i} = {result}"
+    - Where i are the numbers from 1 to 10 (inclusive)
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1|2 x 1 = 2<br>2 x 2 = 4<br>2 x 3 = 6<br>2 x 4 = 8<br>2 x 5 = 10<br>2 x 6 = 12<br>2 x 7 = 14<br>2 x 8 = 16<br>2 x 9 = 18<br>2 x 10 = 20|
+[/slide]
