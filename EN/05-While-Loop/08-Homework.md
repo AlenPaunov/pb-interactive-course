@@ -212,9 +212,9 @@ public class Program
 [task-description]
 - Write a program, which: 
   - Receives integer
-  - Prints **"\{num\} is special"** if the number is special
+  - Prints "\{num\} is special" if the number is special
   - Special number is number divisible by all of its digits without remainder
-  - Otherwise, prints **"\{num\} is not special"**
+  - Otherwise, prints "\{num\} is not special"
 [/task-description]
 [code-io /]
 [/code-task]
@@ -254,9 +254,9 @@ public class Program
 [task-description]
 - Write a program, which: 
   - Receives integer
-  - Prints **"\{num\} is special"** if the number is special
+  - Prints "\{num\} is special" if the number is special
   - Special number is number divisible by all of its digits without remainder
-  - Otherwise, prints **"\{num\} is not special"**
+  - Otherwise, prints "\{num\} is not special"
 [/task-description]
 [code-io /]
 [/code-task]
