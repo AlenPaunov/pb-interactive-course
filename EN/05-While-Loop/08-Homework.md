@@ -254,9 +254,9 @@ public class Program
 [task-description]
 - Write a program, which: 
   - Receives integer
-  - Prints "\{num\} is special" if the number is special
+  - Prints **"\{num\} is special"** if the number is special
   - Special number is number divisible by all of its digits without remainder
-  - Otherwise, prints "\{num\} is not special"
+  - Otherwise, prints **"\{num\} is not special"**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -265,4 +265,203 @@ public class Program
 |-----|------|
 |23|23 is not special|
 |44|44 is special|
+[/slide]
+
+[slide]
+# Problem: Special Bonus
+[code-task title="Special Bonus" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Reads a special integer number from the console
+  - Keeps reading integers until it finds the same one
+  - When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|25<br>20<br>30<br>25|36|
+[/slide]
+
+[slide]
+# Solution: Special Bonus
+[code-task title="Special Bonus" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      int special = int.Parse(Console.ReadLine());
+      int number = Console.ReadLine();
+      int previous = number;
+      while(true) {
+        if(number == special) {
+          previous += previous * 0.2;
+          break;
+        }
+        previous = number
+        number = Console.ReadLine();
+      }
+      Console.WriteLine(previous);
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Reads a special integer number from the console
+  - Keeps reading integers until it finds the same one
+  - When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|25<br>20<br>30<br>25|36|
+[/slide]
+
+[slide]
+# Problem: Sequence 2k + 1
+[code-task title="Sequence 2k + 1" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Reads a number **n** from the console
+  - Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
+  - Each number is equal to the previous one multiplied by **2** plus **1**
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|8|1<br>3<br>7|
+[/slide]
+
+[slide]
+# Solution: Sequence 2k + 1
+[code-task title="Sequence 2k + 1" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      int n = int.Parse(Console.ReadLine());
+      int k = 1;
+      while(k <= n)
+      {
+        Console.WriteLine(k);
+        k = k * 2 + 1;
+      }
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Reads a number **n** from the console
+  - Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
+  - Each number is equal to the previous one multiplied by **2** plus **1**
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|8|1<br>3<br>7|
+[/slide]
+
+[slide]
+# Problem: Account Balance
+[code-task title="Account Balance" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Receives an integer **n** - count of transactions
+  - Receives the amount of money for each transaction
+  - Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3<br>5.51<br>69.42<br>100|Increase: 5.51<br>Increase: 69.42<br>Increase: 100<br>Total: 174.93|
+[/slide]
+
+[slide]
+# Solution: Account Balance
+[code-task title="Account Balance" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      int n = int.Parse(Console.ReadLine());
+      double balance = 0.0;
+      while(n != 0) {
+        double amount = double.Parse(Console.ReadLine());
+        balance += amount;
+        Console.WriteLine($"Increase: {amount:f2}");
+        n--;
+      }
+      Console.WriteLine($"Total: {balance:f2}");
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Receives an integer **n** - count of transactions
+  - Receives the amount of money for each transaction
+  - Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3<br>5.51<br>69.42<br>100|Increase: 5.51<br>Increase: 69.42<br>Increase: 100<br>Total: 174.93|
 [/slide]
