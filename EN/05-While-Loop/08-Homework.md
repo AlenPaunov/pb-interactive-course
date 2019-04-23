@@ -193,3 +193,76 @@ public class Program
 |-----|------|
 |10<br>20<br>304<br>0<br>50<br>END|Max number: 304<br>Min number: 0|
 [/slide]
+
+[slide]
+# Problem: Special Number
+[code-task title="Special Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Receives integer
+  - Prints **"\{num\} is special"** if the number is special
+  - Special number is number divisible by all of its digits without remainder
+  - Otherwise, prints **"\{num\} is not special"**
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|23|23 is not special|
+|44|44 is special|
+[/slide]
+
+[slide]
+# Solution: Special Number
+[code-task title="Special Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      int originNumber = int.Parse(Console.ReadLine());
+      int number = originNumber;
+      bool isSpecial = true;
+      while (number > 0) {
+        int digit = number % 10;
+        number /= 10;
+        if (originNumber % digit != 0) {
+          isSpecial = false;
+          break;
+        }
+      }
+      //TODO: Print the final message
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which: 
+  - Receives integer
+  - Prints **"\{num\} is special"** if the number is special
+  - Special number is number divisible by all of its digits without remainder
+  - Otherwise, prints **"\{num\} is not special"**
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|23|23 is not special|
+|44|44 is special|
+[/slide]
