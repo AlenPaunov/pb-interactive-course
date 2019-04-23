@@ -5,5 +5,4 @@
     - Keep removing books until the box is emptied
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/05-while-loop/assets/05-while-loop-1.png"/]
-
 [/slide]
