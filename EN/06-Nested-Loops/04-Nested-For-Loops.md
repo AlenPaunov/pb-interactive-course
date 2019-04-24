@@ -1,5 +1,5 @@
 [slide]
-# Nested Loops
+# Nested for Loops
 - Statements that consist of several **loops** located **inside each other**
 - **Nested loops** are used:
     - To execute an **action**, which **executes** multiple **actions**
