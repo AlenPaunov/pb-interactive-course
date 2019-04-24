@@ -283,3 +283,304 @@ public class Program
 |-----|------|
 |Philippines<br>1000<br>550<br>450|Going to Philippines!|
 [/slide]
+
+[slide]
+# Problem: Prime Numbers
+[code-task title="Prime Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads two numbers from the console
+    - Prints the prime number in that range
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1<br>50|1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47|
+[/slide]
+
+[slide]
+# Solution: Prime Numbers
+[code-task title="Prime Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        int m = int.Parse(Console.ReadLine());
+        for (int num = n; num <= m; num++) 
+        {
+            bool prime = true;
+            int divider = 2;
+            int maxDivider = (int)Math.Sqrt(num);
+            while (divider <= maxDivider) 
+            {
+                if (num % divider == 0) 
+                {
+                    prime = false;
+                    break;
+                }
+                divider++;
+            }
+            if (prime) Console.WriteLine(num);
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads two numbers from the console
+    - Prints the prime number in that range
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|1<br>50|1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47|
+[/slide]
+
+[slide]
+# Problem: Unique PIN Codes
+[code-task title="Unique PIN Codes" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads 3 digits - each of them is an upper limit
+    - Generates unique 3 digit PIN Codes, which meet the following conditions:
+        - They are in the range
+        - The first and the third digit must be even
+        - The second digit must be a prime  number in the range \[2…7\]
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3<br>5<br>5|222<br>224<br>232<br>234<br>252<br>254|
+[/slide]
+
+[slide]
+# Solution: Unique PIN Codes
+[code-task title="Unique PIN Codes" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        int n1 = int.Parse(Console.ReadLine());
+        int n2 = int.Parse(Console.ReadLine());
+        int n3 = int.Parse(Console.ReadLine());
+        for (int first = 1; first <= n1; first++) 
+        {
+            for (int second = 1; second <= n2; second++)
+            {
+                for (int third = 1; third <= n3; third++) 
+                {  
+                    if (first % 2 == 0 && third % 2 == 0)
+                    // TODO: Checks if the second value is 2, 3, 5 or 7 
+            and prints the 3 digits one after another
+                }
+            }
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads 3 digits - each of them is an upper limit
+    - Generates unique 3 digit PIN Codes, which meet the following conditions:
+        - They are in the range
+        - The first and the third digit must be even
+        - The second digit must be a prime  number in the range \[2…7\]
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3<br>5<br>5|222<br>224<br>232<br>234<br>252<br>254|
+[/slide]
+
+[slide]
+# Problem: Letter Combinations
+[code-task title="Letter Combinations" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Prints letters combinations and the count of the printed combinations
+        - You will receive the range of letters on the first and second line
+        - On the third line, you will receive a letter, which you must ignore - don't print combinations with it
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|a<br>b<br>c|aaa aac aca acc caa cac cca ccc|
+[/slide]
+
+[slide]
+# Solution: Letter Combinations
+[code-task title="Letter Combinations" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        char startLetter = char.Parse(Console.ReadLine());
+        char endLetter = char.Parse(Console.ReadLine());
+        char avoidLetter = char.Parse(Console.ReadLine());
+        int counter = 0;
+        for (char first = startLetter; first <= endLetter; first++)
+        {
+            for (char second = startLetter; second <= endLetter; second++)
+            {
+                for (char third = startLetter; third <= endLetter; third++)
+                {
+                    if (first != avoidLetter && second != avoidLetter && third != avoidLetter)
+                    {
+                        // TODO: Print the combinations
+                    }
+                    // TODO: Print the counter
+                }
+            }
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Prints letters combinations and the count of the printed combinations
+        - You will receive the range of letters on the first and second line
+        - On the third line, you will receive a letter, which you must ignore - don't print combinations with it
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|a<br>b<br>c|aaa aac aca acc caa cac cca ccc|
+[/slide]
+
+[slide]
+# Problem: Happy Numbers
+[code-task title="Happy Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+      // Write code here
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads a number n
+    - Prints all 4 digit numbers, which meet the following conditions:
+        - When you split them in two pairs and add the first digit to the second - the result equals n
+        - When you add the first two digits to each other, the result must be divisible by n without a remainder
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3|1212 1221 2112 2121|
+[/slide]
+
+[slide]
+# Solution: Happy Numbers
+[code-task title="Happy Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
+```
+using System;
+public class Program
+{
+  public static void Main()
+    {
+        int number = int.Parse(Console.ReadLine());
+        for (int firstDigit = 1; firstDigit <= 9; firstDigit++)
+        {
+            for (int secDigit = 1; secDigit <= 9; secDigit++)
+            {
+                for (int thirdDigit = 1; thirdDigit <= 9; thirdDigit++)
+                {
+                    for (int forthDigit = 1; forthDigit <= 9; forthDigit++)
+                    {
+                        if (firstDigit + secDigit == thirdDigit + forthDigit)
+                        {
+                            if (number % (firstDigit + secDigit) == 0)
+                            // TODO: Print the number        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+[/code-editor]
+[task-description]
+- Write a program, which:
+    - Reads a number n
+    - Prints all 4 digit numbers, which meet the following conditions:
+        - When you split them in two pairs and add the first digit to the second - the result equals n
+        - When you add the first two digits to each other, the result must be divisible by n without a remainder
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|3|1212 1221 2112 2121|
+[/slide]
