@@ -1,34 +1,17 @@
-# Summary
-
-[slide]
-# Video
-[youtube-video videoId=rtczBseiAac /]
-[/slide]
-
 [slide]
 # Summary
+* Variables hold data
+* Data types define data ranges
+* Statements define commands
+* Reading user input
+* Simple operations
+  * Arithmetic operators: 
+  ```csharp
+  +, -, *, /, %
+  ```
+  * Formatting output: 
+  ```csharp
+  $"{val:f2}"
+  ```
+* Expressions
 [/slide]
-
-[slide]
-# Title
-
-[code-task title="" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
-```
-using System;
-public class Program
-{
-  public static void Main()
-    {
-      // Write code here
-    }
-}
-```
-[/code-editor]
-[task-description]
-[/task-description]
-[code-io /]
-[/code-task]
-
-[/slide]
-
