@@ -118,7 +118,8 @@ public class Program
         string command = Console.ReadLine();
         while (command != "END") {
         switch (command) {
-            case "Add": number++; break;    case "Subtract": number--; break;
+            case "Add": number++; break;
+            case "Subtract": number--; break;
         }
         command = Console.ReadLine();
         }
