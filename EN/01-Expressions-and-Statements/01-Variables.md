@@ -2,9 +2,12 @@
 
 # How Computing Works?
 Computers are machines that process data
+
   Programs and data are sorted in the computer memory
+
   Data is stored using variables
-[img src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-3.png"/]
+
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-expressions-and-statements/assets/expressions-and-statements-3.png"/]
 
 [/slide]
 
