@@ -1,7 +1,8 @@
 [slide]
 # Statements
-* The **actions** that a program takes, are expressed as **statements**
-* Common actions include:
+The **actions** that a program takes, are expressed as **statements**
+
+Common actions include:
   * **Declaring** a variable
   ```csharp
   int counter;
