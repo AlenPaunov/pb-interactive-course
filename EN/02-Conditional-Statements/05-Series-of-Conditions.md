@@ -1,6 +1,7 @@
 [slide]
 # Series of Conditions
-* The ***if-else*** statement can be in series
+The ***if-else*** statement can be in series
+
 ```csharp
 if (…) 
   // code
@@ -14,7 +15,8 @@ else if (…)
 
 [slide]
 # Series of Conditions - Example
-* The program checks the first condition, finds that it is *true* and ends
+The program checks the first condition, finds that it is *true* and ends
+
 ```csharp
 int a = 7;
 if (a > 4) 
@@ -43,7 +45,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which prints a number as text: 
+Write a program, which prints a number as text: 
+
   * Read an **integer** in the range [1…100]
   * Print its value in the form of text (in English)
   * If the number is **greater** than 9 print ***"Number too big"***
@@ -83,7 +86,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which prints a number as text: 
+Write a program, which prints a number as text:
+ 
   * Read an **integer** in the range [1…100]
   * Print its value in the form of text (in English)
   * If the number is **greater** than 9 print ***"Number too big"***

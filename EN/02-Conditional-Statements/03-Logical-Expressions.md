@@ -12,8 +12,10 @@
 
 [slide]
 # Value Comparison
-* In programming we can **compare** values
+In programming we can **compare** values
+
   * The result of the logical expressions is either ***true*** or ***false***
+
 ```csharp
 int a = 5;
 int b = 10;
@@ -27,7 +29,8 @@ Console.WriteLine(a != b);     // true
 
 [slide]
 # String Comparison
-* Comparing text using the equality operator(**==**)
+Comparing text using the equality operator(**==**)
+
 ```csharp
 string a = "Examplе";
 string b = a;

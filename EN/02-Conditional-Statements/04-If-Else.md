@@ -1,6 +1,7 @@
 [slide]
 # Simple Conditions: if-else
-* If the condition is ***false***, we may execute another code using the ***еlse*** block
+If the condition is ***false***, we may execute another code using the ***еlse*** block
+
 ```csharp
 if (…)
 {
@@ -15,8 +16,10 @@ else
 
 [slide]
 # Block of Code
-- The curly brackets ***\{\}*** introduce a **block** (a group of commands)
+The curly brackets ***\{\}*** introduce a **block** (a group of commands)
+
 In case the ***if*** statement does **not** have curly brackets, only the code on the **next line** will be executed
+
 ```csharp
 string color = "red";
 if (color == "red") 
@@ -58,7 +61,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which checks if a number is **even** or **odd**
+Write a program, which checks if a number is **even** or **odd**
+
   * If it's even, print "**even**"
   * If it's odd, print "**odd**"
 [/task-description]
@@ -97,7 +101,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which checks if a number is **even** or **odd**
+Write a program, which checks if a number is **even** or **odd**
+
   * If it's even, print "**even**"
   * If it's odd, print "**odd**"
 [/task-description]
@@ -128,7 +133,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which finds the greater of two numbers:
+Write a program, which finds the greater of two numbers:
+
   * Read two **integers**
   * Find the greater number
   * Print ***"Greater number:"*** + the **greater** number
@@ -167,7 +173,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which finds the greater of two numbers:
+Write a program, which finds the greater of two numbers:
+
   * Read two **integers**
   * Find the greater number
   * Print ***"Greater number:"*** + the **greater** number

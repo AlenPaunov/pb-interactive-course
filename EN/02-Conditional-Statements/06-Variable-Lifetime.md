@@ -1,6 +1,7 @@
 [slide]
 # Variable Scope
-* The block (range), in which a variable can be used:
+The block (range), in which a variable can be used:
+
 ```csharp
 if (Console.ReadLine() == "Monday")
 {
