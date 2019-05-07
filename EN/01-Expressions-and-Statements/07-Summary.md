@@ -1,5 +1,6 @@
 [slide]
 # Summary
+
 Variables hold data
 
 Data types define data ranges
