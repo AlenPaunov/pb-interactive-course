@@ -1,6 +1,6 @@
 [slide]
 # Real Life Example: Marketplace
-- A market offers different prices for certain products based on the day of the week
+A market offers different prices for certain products based on the day of the week
 
 |Product|Weekday|Weekend| 
 |-------|-------|-------|
@@ -8,11 +8,10 @@
 |Apple|1.30|1.60|
 |Kiwi|2.20|3.00|
 
-- We want to calculate the price for certain product and day
-[/slide]
+We want to calculate the price for certain product and day
 
-[slide]
-# Pseudocode: Marketplace
+Pseudocode: Marketplace
+
 ```csharp
 Read the input 
 If product is banana

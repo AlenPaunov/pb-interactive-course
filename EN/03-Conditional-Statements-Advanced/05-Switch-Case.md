@@ -1,7 +1,9 @@
 [slide]
 # The Switch-Case Statement
-- Used for choosing among a list of possibilities
-- Alternative to an ***if-else*** statement
+Used for choosing among a list of possibilities
+
+Alternative to an ***if-else*** statement
+
 ```csharp
 switch (selector)
 {
@@ -13,10 +15,8 @@ switch (selector)
     break;
 }
 ```
-[/slide]
+Example
 
-[slide]
-# Example
 ```csharp
 string choice = Console.ReadLine();
 switch (choice)

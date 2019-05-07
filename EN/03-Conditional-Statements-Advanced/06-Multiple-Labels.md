@@ -1,6 +1,7 @@
 [slide]
 # Multiple Labels
-- Same logic has for more than one case
+Same logic has for more than one case
+
 ```csharp
 switch (selector) {
   case value1:
@@ -12,10 +13,9 @@ switch (selector) {
     break;
 }
 ```
-[/slide]
 
-[slide]
-# Example
+Example
+
 ```csharp
 string animal = Console.ReadLine();
 switch (animal) {

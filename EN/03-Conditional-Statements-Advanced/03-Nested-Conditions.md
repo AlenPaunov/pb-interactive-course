@@ -1,6 +1,7 @@
 [slide]
 # Nested Conditions
-- An ***if-else*** statement can be nested within another ***if-else*** statement
+An ***if-else*** statement can be nested within another ***if-else*** statement
+
 ```csharp
 if (expression)
 {
@@ -10,7 +11,8 @@ if (expression)
     // Some code
 } 
 ```
-- Only if the first condition is true the nested one is checked
+Only if the first condition is true the nested one is checked
+
 ```csharp
 if (expression)
 {
@@ -21,8 +23,10 @@ if (expression)
     // Executes when the nested expression is false
 }
 ```
-- Deep nesting is not recommended
-  - Use up to 3 nested levels
+Deep nesting is not recommended
+
+* Use up to 3 nested levels
+
 [/slide]
 
 [slide]
@@ -41,8 +45,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Read a **product** and **day** from the console
-- Print the **price**, formatted to 2nd digit, based on the price table:
+Write a program which:
+
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
 [/task-description]
 [code-io /]
 [/code-task]
@@ -87,8 +93,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Read a **product** and **day** from the console
-- Print the **price**, formatted to 2nd digit, based on the price table:
+Write a program which:
+
+  * Reads a **product** and **day** from the console
+  * Prints the **price**, formatted to 2nd digit, based on the price table below
 [/task-description]
 [code-io /]
 [/code-task]
@@ -123,8 +131,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Read **3 numbers** from the console
-- Print **the biggest** number
+Write a program, which:
+
+  * Reads **3 numbers** from the console
+  * Prints **the biggest** number
 [/task-description]
 [code-io /]
 [/code-task]
@@ -167,8 +177,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Read **3 numbers** from the console
-- Print **the biggest** number
+Write a program, which:
+
+  * Reads **3 numbers** from the console
+  * Prints **the biggest** number
 [/task-description]
 [code-io /]
 [/code-task]
