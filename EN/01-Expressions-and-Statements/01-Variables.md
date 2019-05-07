@@ -31,8 +31,6 @@ Variable == named area of the computer memory
   * Stores a value of a particular data type
   * Accessible in the program by name
 Can be stored in the program's:
-  * Operational memory
-    * In the execution stack
-  * Dynamic memory
-    * In the heap
+  * Operational memory - in the execution stack
+  * Dynamic memory - in the heap
 [/slide]
