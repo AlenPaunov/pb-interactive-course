@@ -10,9 +10,9 @@ for (initialization; condition; step)
     // Body of the for loop
 }
 ```
-- **Initialization** - initializes the variable
-- **Condition** - evaluates the condition
-- **Step** - updates the initialized value
+**Initialization** - initializes the variable
+**Condition** - evaluates the condition
+**Step** - updates the initialized value
 
 **Example**
 
