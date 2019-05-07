@@ -1,10 +1,12 @@
 [slide]
 # Real Life Example: Watering Plants
-* **If** it is raining:
+**If** it is raining:
+
   * I shall skip watering the plants in the garden
-* **Else**:
+**Else**:
+
   * I will have to water them
-[image src='https://github.com/AlenPaunov/pb-interactive-course/blob/02-condtional-statements/assets/02-coditional-statements-1.png'/]
+
 ```
 if humidity is greater than 90%
   Don't water the plants
@@ -15,7 +17,8 @@ else
 
 [slide]
 # Simple Conditions
-* Check certain condition and take action according to the result
+Check certain condition and take action according to the result
+
 ```csharp
 if (condition) /*Boolean expression*/
 {
@@ -23,7 +26,8 @@ if (condition) /*Boolean expression*/
   // the condition is true
 }
 ```
-* The result is either ***true*** or ***false***
+The result is either ***true*** or ***false***
+
 [/slide]
 
 [slide]
@@ -42,7 +46,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to check for freezing weather:
+Write a program to check for freezing weather:
+
   * Read a temperature in Celsius (a floating-point number)
   * **Check** whether the temperature is below zero
   * Print "Freezing weather!", if the temperature is equal or smaller than 0
@@ -77,7 +82,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to check for freezing weather:
+Write a program to check for freezing weather:
+
   * Read a temperature in Celsius (a floating-point number)
   * **Check** whether the temperature is below zero
   * Print "Freezing weather!", if the temperature is equal or smaller than 0
