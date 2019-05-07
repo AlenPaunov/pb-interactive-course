@@ -3,6 +3,7 @@
 **If** it is raining:
 
   * I shall skip watering the plants in the garden
+  
 **Else**:
 
   * I will have to water them
