@@ -1,17 +1,17 @@
 [slide]
 # While Loop
-- Control flow **statement** that allows code to be executed repeatedly based on a given **Boolean** condition
+Control flow **statement** that allows code to be executed repeatedly based on a given **Boolean** condition
+
 ```csharp
 while /*<-Keyword*/ (condition)
 {
    // Body of the loop
 }
 ```
-[/slide]
+**Example**
 
-[slide]
-# While Loop: Example
-- Print numbers from **1 to 5**
+Print numbers from **1 to 5**
+
 ```csharp
 int i = 1;
 while (i <= 5)
@@ -29,14 +29,20 @@ while (i <= 5)
 
 [slide]
 # While or For
-- ***While*** and ***for*** loop help to **repeat** block of **code**
-- Use ***for*** when you know the **number of repetitions**
-- Use ***while*** when you don't know when the **end condition** will be met
+***While*** and ***for*** loop help to **repeat** block of **code**
+
+Use ***for*** when you know the **number of repetitions**
+
+Use ***while*** when you don't know when the **end condition** will be met
+
 [/slide]
 
 [slide]
 # The Break Operator
-- Used for **prematurely exiting** the loop
-- Can only be executed from the **body**, during an **iteration of the loop**
-- When ***break*** is executed the code in the loop's body after it **is skipped**
+Used for **prematurely exiting** the loop
+
+Can only be executed from the **body**, during an **iteration of the loop**
+
+When ***break*** is executed the code in the loop's body after it **is skipped**
+
 [/slide]

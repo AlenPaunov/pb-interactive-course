@@ -1,6 +1,7 @@
 [slide]
 # Complex Loops
-- Loops with different **steps**
+Loops with different **steps**
+
 ```csharp
 for (int i = n; i >= 1; i--) 
 for (int j = 1; j <= n; j+=2)
@@ -24,9 +25,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads an integer number **n**
-    - Prints the numbers from **n** to **1** 
+Write a program, which:
+
+* Reads an integer number **n**
+* Prints the numbers from **n** to **1** 
 [/task-description]
 [code-io /]
 [/code-task]
@@ -57,9 +59,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads an integer number **n**
-    - Prints the numbers from **n** to **1** 
+Write a program, which:
+
+* Reads an integer number **n**
+* Prints the numbers from **n** to **1** 
 [/task-description]
 [code-io /]
 [/code-task]
@@ -86,9 +89,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads an integer number **n**
-    - Prints the numbers from **1** to **n** with step **3**
+Write a program, which:
+
+* Reads an integer number **n**
+* Prints the numbers from **1** to **n** with step **3**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -119,9 +123,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads an integer number **n**
-    - Prints the numbers from **1** to **n** with step **3**
+Write a program, which:
+
+* Reads an integer number **n**
+* Prints the numbers from **1** to **n** with step **3**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -148,9 +153,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number **n**
-    - Prints the even powers of 2 to 2**n**: 20, 22, 24, 28, …, 2n
+Write a program, which:
+
+* Reads a number **n**
+* Prints the even powers of 2 to 2**n**: 20, 22, 24, 28, …, 2n
 [/task-description]
 [code-io /]
 [/code-task]
@@ -184,9 +190,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number **n**
-    - Prints the even powers of 2 to 2**n**: 20, 22, 24, 28, …, 2n
+Write a program, which:
+
+* Reads a number **n**
+* Prints the even powers of 2 to 2**n**: 20, 22, 24, 28, …, 2n
 [/task-description]
 [code-io /]
 [/code-task]

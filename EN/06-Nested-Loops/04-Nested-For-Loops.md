@@ -1,9 +1,11 @@
 [slide]
 # Nested for Loops
-- Statements that consist of several **loops** located **inside each other**
-- **Nested loops** are used:
-    - To execute an **action**, which **executes** multiple **actions**
-    - To make more **complex** calculations and variations
+Statements that consist of several **loops** located **inside each other**
+
+**Nested loops** are used:
+
+* To execute an **action**, which **executes** multiple **actions**
+* To make more **complex** calculations and variations
 
 ```csharp
 for (int i = 1; i <= n; i+=3) 
@@ -21,7 +23,8 @@ for (int i = 1; i <= n; i+=3)
 
 [slide]
 # Nested for Loops
-- The syntax for a **nested ***for*** loop in C#** is as follows
+The syntax for a **nested ***for*** loop in C#** is as follows
+
 ```csharp
 for (init; condition; increment) 
 {   // Outer Loop 
@@ -59,9 +62,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads the **height** of a triangle from the console
-    - Prints a **triangle of stars**
+Write a program, which:
+
+* Reads the **height** of a triangle from the console
+* Prints a **triangle of stars**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -95,9 +99,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads the **height** of a triangle from the console
-    - Prints a **triangle of stars**
+Write a program, which:
+
+* Reads the **height** of a triangle from the console
+* Prints a **triangle of stars**
 [/task-description]
 [code-io /]
 [/code-task]

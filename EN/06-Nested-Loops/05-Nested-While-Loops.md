@@ -1,5 +1,7 @@
 [slide]
 # Nested While Loops
+**Structure**
+
 ```csharp
 while (condition) 
 {      // Outer Loop 
@@ -9,6 +11,8 @@ while (condition)
    }
 }
 ```
+**Example**
+
 ```csharp
 int i = 0;
 while (i < 2) {
