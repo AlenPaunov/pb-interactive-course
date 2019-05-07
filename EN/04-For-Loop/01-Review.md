@@ -1,7 +1,9 @@
 [slide]
 # Nested Conditions
-- An ***if...else*** statement can exist within another ***if...else*** statement
-  Generally used when we have to test one condition followed by another
+An ***if...else*** statement can exist within another ***if...else*** statement
+  
+Generally used when we have to test one condition followed by another
+
 ```csharp
 if (expression)
 {
@@ -11,21 +13,23 @@ if (expression)
     // Code to be executed
 }
 ```
-[/slide]
 
-[slide]
-# Logical Operators
-Logical operators are used to perform logical operation such as AND, OR
+**Logical Operators**
+Logical operators are used to perform logical operation such as AND, OR
+
 The logical operators are:
-AND (&&)
-OR (||)
-Logical negation (!)
-[/slide]
 
-[slide]
-# Switch-case
+AND (&&)
+
+OR (||)
+
+Logical negation (!)
+
+**Switch-case**
 Used for choosing among a list of possibilities
+
 Alternative to an if-else statement
+
 ```csharp
 switch (selector)
 {
