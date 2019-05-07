@@ -349,10 +349,10 @@ public class Program
 [task-description]
 Write a program, which checks for sorted 3 numbers:
 
-    * Read 3 real numbers
-    * Print "Ascending" if the numbers are in ascending order
-    * Print "Descending" if the numbers are in descending order
-    * Print "Not sorted" in any other case
+* Read 3 real numbers
+* Print "Ascending" if the numbers are in ascending order
+* Print "Descending" if the numbers are in descending order
+* Print "Not sorted" in any other case
 
 [/task-description]
 [code-io /]
@@ -382,8 +382,8 @@ public class Program
 [task-description]
 Write a program, which calculates vacation expenses:
 
-    * Read season, accommodation type and count of the days
-    * Print the total expenses, based on the price table bellow,formatted to the 2nd * digit after the decimal point
+* Read season, accommodation type and count of the days
+* Print the total expenses, based on the price table bellow,formatted to the 2nd * digit after the decimal point
 
 [/task-description]
 [code-io /]
@@ -427,8 +427,8 @@ public class Program
 [task-description]
 Write a program, which calculates vacation expenses:
 
-    * Read season, accommodation type and count of the days
-    * Print the total expenses, based on the price table bellow,formatted to the 2nd * digit after the decimal point
+* Read season, accommodation type and count of the days
+* Print the total expenses, based on the price table bellow,formatted to the 2nd * digit after the decimal point
 
 [/task-description]
 [code-io /]
