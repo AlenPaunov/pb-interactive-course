@@ -85,6 +85,7 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program, which:
+
 * Reads a **number** from the console
 * Checks if the number is in the range between **1 and 100**
 * If it isn't - it reads a **new one**

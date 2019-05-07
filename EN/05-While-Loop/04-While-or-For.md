@@ -88,6 +88,7 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program, which:
+
 * Reads a number from the console
 * Reads the following commands:
 * **Add** - Аdds 1 to the number
