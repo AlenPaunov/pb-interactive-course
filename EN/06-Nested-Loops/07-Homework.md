@@ -14,12 +14,13 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Prints information about **apartments** (odd rows), **offices** (even rows) and the **last floor** (last row)
-    - Apartment ***"A\{buildingNum\}\{apartmentNum\}"***
-    - Office ***"O\{floorNum\}\{officeNum\}"***
-    - Floor ***"L\{buildingNum\}\{apartmentNum\}"***
-    - The numbers always start from **0**
+Write a program, which:
+
+* Prints information about **apartments** (odd rows), **offices** (even rows) and the **last floor** (last row)
+* Apartment ***"A\{buildingNum\}\{apartmentNum\}"***
+* Office ***"O\{floorNum\}\{officeNum\}"***
+* Floor ***"L\{buildingNum\}\{apartmentNum\}"***
+* The numbers always start from **0**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -56,12 +57,13 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Prints information about **apartments** (odd rows), **offices** (even rows) and the **last floor** (last row)
-    - Apartment ***"A\{buildingNum\}\{apartmentNum\}"***
-    - Office ***"O\{floorNum\}\{officeNum\}"***
-    - Floor ***"L\{buildingNum\}\{apartmentNum\}"***
-    - The numbers always start from **0**
+Write a program, which:
+
+* Prints information about **apartments** (odd rows), **offices** (even rows) and the **last floor** (last row)
+* Apartment ***"A\{buildingNum\}\{apartmentNum\}"***
+* Office ***"O\{floorNum\}\{officeNum\}"***
+* Floor ***"L\{buildingNum\}\{apartmentNum\}"***
+* The numbers always start from **0**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -87,11 +89,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Generates custom **3 digit** passwords, which meet the following conditions:
-        - The **first** digit is an **even** number
-        - The **second** digit is an **odd** number
-        - The **third** is the **product** of the first two
+Write a program, which:
+
+*Generates custom **3 digit** passwords, which meet the following conditions:
+* The **first** digit is an **even** number
+* The **second** digit is an **odd** number
+* The **third** is the **product** of the first two
 [/task-description]
 [code-io /]
 [/code-task]
@@ -128,11 +131,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Generates custom **3 digit** passwords, which meet the following conditions:
-        - The **first** digit is an **even** number
-        - The **second** digit is an **odd** number
-        - The **third** is the **product** of the first two
+Write a program, which:
+
+* Generates custom **3 digit** passwords, which meet the following conditions:
+* The **first** digit is an **even** number
+* The **second** digit is an **odd** number
+* The **third** is the **product** of the first two
 [/task-description]
 [code-io /]
 [/code-task]
@@ -159,10 +163,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a **number - n**, from the console
-    - Finds all **3-digit numbers**:
-        - Forming **n** as a product of the multiplication of their digits
+Write a program, which:
+
+* Reads a **number - n**, from the console
+* Finds all **3-digit numbers**:
+* Forming **n** as a product of the multiplication of their digits
 [/task-description]
 [code-io /]
 [/code-task]
@@ -200,10 +205,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a **number - n**, from the console
-    - Finds all **3-digit numbers**:
-        - Forming **n** as a product of the multiplication of their digits
+Write a program, which:
+
+* Reads a **number - n**, from the console
+* Finds all **3-digit numbers**:
+* Forming **n** as a product of the multiplication of their digits
 [/task-description]
 [code-io /]
 [/code-task]
@@ -230,10 +236,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a **destination** and **needed budget** for destination
-    - Continues reading numbers - amounts of money, until they are **enough** for the destination
-        - If it receives the command **"End"** the program ends
+Write a program, which:
+
+* Reads a **destination** and **needed budget** for destination
+* Continues reading numbers - amounts of money, until they are **enough** for the destination
+* If it receives the command **"End"** the program ends
 [/task-description]
 [code-io /]
 [/code-task]
@@ -271,10 +278,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a **destination** and **needed budget** for destination
-    - Continues reading numbers - amounts of money, until they are **enough** for the destination
-        - If it receives the command **"End"** the program ends
+Write a program, which:
+
+* Reads a **destination** and **needed budget** for destination
+* Continues reading numbers - amounts of money, until they are **enough** for the destination
+* If it receives the command **"End"** the program ends
 [/task-description]
 [code-io /]
 [/code-task]
@@ -300,9 +308,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads two numbers from the console
-    - Prints the prime number in that range
+Write a program, which:
+
+* Reads two numbers from the console
+* Prints the prime number in that range
 [/task-description]
 [code-io /]
 [/code-task]
@@ -345,9 +354,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads two numbers from the console
-    - Prints the prime number in that range
+Write a program, which:
+
+* Reads two numbers from the console
+* Prints the prime number in that range
 [/task-description]
 [code-io /]
 [/code-task]
@@ -373,12 +383,13 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads 3 digits - each of them is an upper limit
-    - Generates unique 3 digit PIN Codes, which meet the following conditions:
-        - They are in the range
-        - The first and the third digit must be even
-        - The second digit must be a prime  number in the range \[2…7\]
+Write a program, which:
+
+* Reads 3 digits - each of them is an upper limit
+* Generates unique 3 digit PIN Codes, which meet the following conditions:
+* They are in the range
+* The first and the third digit must be even
+* The second digit must be a prime  number in the range \[2…7\]
 [/task-description]
 [code-io /]
 [/code-task]
@@ -418,12 +429,13 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads 3 digits - each of them is an upper limit
-    - Generates unique 3 digit PIN Codes, which meet the following conditions:
-        - They are in the range
-        - The first and the third digit must be even
-        - The second digit must be a prime  number in the range \[2…7\]
+Write a program, which:
+
+* Reads 3 digits - each of them is an upper limit
+* Generates unique 3 digit PIN Codes, which meet the following conditions:
+* They are in the range
+* The first and the third digit must be even
+* The second digit must be a prime  number in the range \[2…7\]
 [/task-description]
 [code-io /]
 [/code-task]
@@ -449,10 +461,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Prints letters combinations and the count of the printed combinations
-        - You will receive the range of letters on the first and second line
-        - On the third line, you will receive a letter, which you must ignore - don't print combinations with it
+Write a program, which:
+
+* Prints letters combinations and the count of the printed combinations
+* You will receive the range of letters on the first and second line
+* On the third line, you will receive a letter, which you must ignore - don't print combinations with it
 [/task-description]
 [code-io /]
 [/code-task]
@@ -495,10 +508,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Prints letters combinations and the count of the printed combinations
-        - You will receive the range of letters on the first and second line
-        - On the third line, you will receive a letter, which you must ignore - don't print combinations with it
+Write a program, which:
+
+* Prints letters combinations and the count of the printed combinations
+* You will receive the range of letters on the first and second line
+* On the third line, you will receive a letter, which you must ignore - don't print combinations with it
 [/task-description]
 [code-io /]
 [/code-task]
@@ -524,11 +538,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number n
-    - Prints all 4 digit numbers, which meet the following conditions:
-        - When you split them in two pairs and add the first digit to the second - the result equals n
-        - When you add the first two digits to each other, the result must be divisible by n without a remainder
+Write a program, which:
+
+* Reads a number n
+* Prints all 4 digit numbers, which meet the following conditions:
+* When you split them in two pairs and add the first digit to the second - the result equals n
+* When you add the first two digits to each other, the result must be divisible by n without a remainder
 [/task-description]
 [code-io /]
 [/code-task]
@@ -571,11 +586,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number n
-    - Prints all 4 digit numbers, which meet the following conditions:
-        - When you split them in two pairs and add the first digit to the second - the result equals n
-        - When you add the first two digits to each other, the result must be divisible by n without a remainder
+Write a program, which:
+
+* Reads a number n
+* Prints all 4 digit numbers, which meet the following conditions:
+* When you split them in two pairs and add the first digit to the second - the result equals n
+* When you add the first two digits to each other, the result must be divisible by n without a remainder
 [/task-description]
 [code-io /]
 [/code-task]
