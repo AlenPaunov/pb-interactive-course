@@ -14,7 +14,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate the speed by time and distance:
+Write a program to calculate the speed by time and distance:
+
   * Read 2 floating-point numbers: distance and time
   * Calculate the speed needed to travel a given distance for given time
   * Print the calculated result
@@ -48,7 +49,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate the speed by time and distance:
+Write a program to calculate the speed by time and distance:
+
   * Read 2 floating-point numbers: distance and time
   * Calculate the speed needed to travel a given distance for given time
   * Print the calculated result
@@ -79,7 +81,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to convert from USD to EUR:
+Write a program to convert from USD to EUR:
+
   * Read a **floating-point number**: the **dollars** to be converted 
   * Convert dollars to euro (use fixed rate of dollars to euro: **0.88**)
   * Print the converted value in **euro**
@@ -113,7 +116,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate the speed by time and distance:
+Write a program to calculate the speed by time and distance:
+
   * Read 2 floating-point numbers: distance and time
   * Calculate the speed needed to travel a given distance for given time
   * Print the calculated result
@@ -146,7 +150,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to convert from inches to centimeters:
+Write a program to convert from inches to centimeters:
+
   * Read a floating-point number: the **inches** to be converted
   * Convert the inches to **centimeters** (find the formula in Internet)
   * Print the result 
@@ -180,7 +185,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to convert from inches to centimeters:
+Write a program to convert from inches to centimeters:
+
   * Read a floating-point number: the **inches** to be converted
   * Convert the inches to **centimeters** (find the formula in Internet)
   * Print the result 
@@ -212,7 +218,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate a triangle area:
+Write a program to calculate a triangle area:
+
   * Read from input a side **a** and height for that side **ha**
   * Calculate the area of a triangle by the side and height
   * Print the **area**, formatted to the **2nd digit** after decimal point
@@ -246,7 +253,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to convert from inches to centimeters:
+Write a program to convert from inches to centimeters:
+
   * Read a floating-point number: the **inches** to be converted
   * Convert the inches to **centimeters** (find the formula in Internet)
   * Print the result 
@@ -277,7 +285,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which:
+Write a program, which:
+
   * **Reads** 2 real numbers from the **console**
   * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
   * **Formats** and **prints** the results like this example:
@@ -314,7 +323,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which:
+Write a program, which:
+
   * **Reads** 2 real numbers from the **console**
   * Performs **4 arithmetic operations** on the obtained 2 numbers, in the following order: **+, -, *, /**
   * **Formats** and **prints** the results like this example:
@@ -345,7 +355,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to convert from days to minutes:
+Write a program to convert from days to minutes:
+
   * Read a single **integer** (the **days** to be converted)
   * Convert the days to minutes (use calculations)
   * Print the **minutes**
@@ -380,7 +391,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to convert from days to minutes:
+Write a program to convert from days to minutes:
+
   * Read a single **integer** (the **days** to be converted)
   * Convert the days to minutes (use calculations)
   * Print the **minutes**
@@ -412,7 +424,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate a circle area and perimeter:
+Write a program to calculate a circle area and perimeter:
+
   * Read a floating-point number: the radius of a circle
   * Calculate the area and perimeter of a circle
   * Print the calculated values
@@ -447,7 +460,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate a circle area and perimeter:
+Write a program to calculate a circle area and perimeter:
+
   * Read a floating-point number: the radius of a circle
   * Calculate the area and perimeter of a circle
   * Print the calculated values
@@ -478,7 +492,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which:
+Write a program, which:
+
   * Reads 4 lines of **strings**: first name, last name, country and town 
   * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
 [/task-description]
@@ -512,7 +527,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which:
+Write a program, which:
+
   * Reads 4 lines of **strings**: first name, last name, country and town 
   * Prints information about a person in the following format: "**{firstName} {lastName} from {country} - {town}!**"
 [/task-description]
@@ -542,7 +558,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which:
+Write a program, which:
+
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
   * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
 [/task-description]
@@ -575,7 +592,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program, which:
+Write a program, which:
+
   * Reads **3 lines** of input: **name** (string), **population** and **area** (integers)
   * Prints information about a town in the following format: "**Town {name} has population of {population} and area {area} square km.**"
 [/task-description]
