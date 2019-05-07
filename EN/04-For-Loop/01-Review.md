@@ -15,17 +15,17 @@ if (expression)
 ```
 
 **Logical Operators**
+
 Logical operators are used to perform logical operation such as AND, OR
 
 The logical operators are:
 
-AND (&&)
-
-OR (||)
-
-Logical negation (!)
+* AND (&&)
+* OR (||)
+* Logical negation (!)
 
 **Switch-case**
+
 Used for choosing among a list of possibilities
 
 Alternative to an if-else statement

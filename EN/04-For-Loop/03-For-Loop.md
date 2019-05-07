@@ -1,7 +1,9 @@
 [slide]
 # For Loop
-- Allows code to be executed **repeatedly**
-- Repeating while the condition is met
+Allows code to be executed **repeatedly**
+
+Repeating while the condition is met
+
 ```csharp
 for (initialization; condition; step)
 {
@@ -11,10 +13,9 @@ for (initialization; condition; step)
 - **Initialization** - initializes the variable
 - **Condition** - evaluates the condition
 - **Step** - updates the initialized value
-[/slide]
 
-[slide]
-# For Loop: Example
+**Example**
+
 ```csharp
 for (int i = 1;/*Initial value*/ i <= 10;/*Condition*/ i += 1 /*Step*/) 
 {
@@ -39,10 +40,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads number n from the console
-    - Sums all numbers from 1 to n
-    - Prints the sum on the console
+Write a program, which:
+
+* Reads number n from the console
+* Sums all numbers from 1 to n
+* Prints the sum on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -75,10 +77,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads number n from the console
-    - Sums all numbers from 1 to n
-    - Prints the sum on the console
+Write a program, which:
+
+* Reads number n from the console
+* Sums all numbers from 1 to n
+* Prints the sum on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -105,10 +108,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads days in the current month and salary per day
-    - Calculates the salary for the month
-    - Prints the result on the console
+Write a program, which:
+
+* Reads days in the current month and salary per day
+* Calculates the salary for the month
+* Prints the result on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -142,10 +146,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads days in the current month and salary per day
-    - Calculates the salary for the month
-    - Prints the result on the console
+Write a program, which:
+
+* Reads days in the current month and salary per day
+* Calculates the salary for the month
+* Prints the result on the console
 [/task-description]
 [code-io /]
 [/code-task]

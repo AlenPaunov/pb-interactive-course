@@ -1,22 +1,29 @@
 [slide]
 # Increment / Decrement Operators
-- Increment (++) operator increases the value by 1
-- Decrement (--) operator decreases the value by 1
-- Can be used pre and post fix
-    - Prefix: **++i**, **--i**
-    - Postfix: **i++**, **i--**
-- Both operators can be used only with numeric variables
+Increment (++) operator increases the value by 1
+
+Decrement (--) operator decreases the value by 1
+
+Can be used pre and post fix
+
+* Prefix: **++i**, **--i**
+* Postfix: **i++**, **i--**
+
+Both operators can be used only with numeric variables
+
 [/slide]
 
 [slide]
 # Example:
-- Pre-decrement
+Pre-decrement
+
 ```csharp
 int a = 1; 
 Console.WriteLine(--a); // 0: Decreases the value and then prints it
 Console.WriteLine(a);   // 0
 ```
-- Post-decrement
+Post-decrement
+
 ```csharp
 int a = 1; 
 Console.WriteLine(a--); // 1: First prints the value and then decreases it
@@ -26,7 +33,8 @@ Console.WriteLine(a);   // 0
 
 [slide]
 # For Loop with Step
-- The step part in a for loop can either increase or decrease the value of a variable
+The step part in a for loop can either increase or decrease the value of a variable
+
 ```csharp
 for (int i = 0; i < 10; i += 2)
   Console.WriteLine(i);
@@ -54,9 +62,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number n
-    - Prints all numbers from 7 to n, ending with 7
+Write a program, which:
+
+* Reads a number n
+* Prints all numbers from 7 to n, ending with 7
 [/task-description]
 [code-io /]
 [/code-task]
@@ -87,9 +96,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number n
-    - Prints all numbers from 7 to n, ending with 7
+Write a program, which:
+
+* Reads a number n
+* Prints all numbers from 7 to n, ending with 7
 [/task-description]
 [code-io /]
 [/code-task]
@@ -116,10 +126,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads an integer - count of days before an exam
-    - For each day prints: "{currentDay} days before the exam"
-    - At the end prints: "The exam has come"
+Write a program, which:
+
+* Reads an integer - count of days before an exam
+* For each day prints: "{currentDay} days before the exam"
+* At the end prints: "The exam has come"
 [/task-description]
 [code-io /]
 [/code-task]
@@ -150,10 +161,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads an integer - count of days before an exam
-    - For each day prints: "{currentDay} days before the exam"
-    - At the end prints: "The exam has come"
+Write a program, which:
+
+* Reads an integer - count of days before an exam
+* For each day prints: "{currentDay} days before the exam"
+* At the end prints: "The exam has come"
 [/task-description]
 [code-io /]
 [/code-task]

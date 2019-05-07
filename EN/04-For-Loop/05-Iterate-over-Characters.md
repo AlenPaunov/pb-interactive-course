@@ -12,15 +12,16 @@ for (char ch = 'a'; ch <= 'd'; ch++)
 
 [slide]
 # ASCII Table
-- Computers can only understand numbers
-    - ASCII code is the numerical representation of a character
+Computers can only understand numbers
+
+    * ASCII code is the numerical representation of a character
 
     |Dec|Hx|Oct|Html|Chr|
     |---|--|---|----|---|
     |97|61|141|\&\#97;|a|
     |98|62|142|\&\#98;|b|
 
-    - 'a' has the int value of 97
+    * 'a' has the int value of 97
 [/slide]
 
 [slide]
@@ -39,9 +40,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads 2 letters
-    - Prints all letters in the given range inclusive
+Write a program, which:
+
+* Reads 2 letters
+* Prints all letters in the given range inclusive
 [/task-description]
 [code-io /]
 [/code-task]
@@ -73,9 +75,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads 2 letters
-    - Prints all letters in the given range inclusive
+Write a program, which:
+
+* Reads 2 letters
+* Prints all letters in the given range inclusive
 [/task-description]
 [code-io /]
 [/code-task]
