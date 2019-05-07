@@ -1,5 +1,6 @@
 [slide]
 # Increment / Decrement Operators
+
 Increment (++) operator increases the value by 1
 
 Decrement (--) operator decreases the value by 1
@@ -15,6 +16,7 @@ Both operators can be used only with numeric variables
 
 [slide]
 # Example:
+
 Pre-decrement
 
 ```csharp
@@ -33,6 +35,7 @@ Console.WriteLine(a);   // 0
 
 [slide]
 # For Loop with Step
+
 The step part in a for loop can either increase or decrease the value of a variable
 
 ```csharp

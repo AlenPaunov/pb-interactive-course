@@ -1,6 +1,8 @@
 [slide]
 # Infinite Loops
+
 Repeating a block of code an infinite number of times:
+
 ```csharp
 for ( ; ; ) // You can skip the initialization, condition and the increment
 {
@@ -11,6 +13,7 @@ for ( ; ; ) // You can skip the initialization, condition and the increment
 
 [slide]
 # Usage in Programming
+
 Widely used in game development for drawing the game environment
 
 Used for drawing animations

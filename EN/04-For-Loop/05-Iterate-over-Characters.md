@@ -1,5 +1,6 @@
 [slide]
 # Iterating over Characters
+
 In C#, we can iterate over characters
 ```csharp
 for (char ch = 'a'; ch <= 'd'; ch++)
@@ -12,6 +13,7 @@ for (char ch = 'a'; ch <= 'd'; ch++)
 
 [slide]
 # ASCII Table
+
 Computers can only understand numbers
 
     * ASCII code is the numerical representation of a character
@@ -26,6 +28,7 @@ Computers can only understand numbers
 
 [slide]
 # Problem: Latin Letters
+
 [code-task title="Latin Letters" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
