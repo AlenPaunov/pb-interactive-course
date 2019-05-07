@@ -292,7 +292,8 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-* Write a program to calculate a ticket price:
+Write a program to calculate a ticket price:
+
   * Read a ticket type: either student or regular
   * Print the price in the following format "${price}":
   * Student ticket price: 1.00
