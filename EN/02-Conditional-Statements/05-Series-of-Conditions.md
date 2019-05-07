@@ -11,10 +11,9 @@ else if (…)
   // code
 // If one condition is true, the program will NOT check the rest of the conditions
 ```
-[/slide]
 
-[slide]
-# Series of Conditions - Example
+Example
+
 The program checks the first condition, finds that it is *true* and ends
 
 ```csharp
@@ -87,7 +86,7 @@ public class Program
 [/code-editor]
 [task-description]
 Write a program, which prints a number as text:
- 
+
   * Read an **integer** in the range [1…100]
   * Print its value in the form of text (in English)
   * If the number is **greater** than 9 print ***"Number too big"***
