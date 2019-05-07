@@ -1,10 +1,15 @@
 [slide]
 # Summary
-* Variables hold data
-* Data types define data ranges
-* Statements define commands
-* Reading user input
-* Simple operations
+Variables hold data
+
+Data types define data ranges
+
+Statements define commands
+
+Reading user input
+
+Simple operations
+
   * Arithmetic operators: 
   ```csharp
   +, -, *, /, %
@@ -13,5 +18,6 @@
   ```csharp
   $"{val:f2}"
   ```
-* Expressions
+Expressions
+
 [/slide]
