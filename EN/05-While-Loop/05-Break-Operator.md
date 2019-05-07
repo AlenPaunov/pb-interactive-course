@@ -1,12 +1,11 @@
 [slide]
 # Break Operator
-- Used for prematurely **exiting** the loop
-- Can only be executed from the loop's **body**
-- When it is executed, the code inside the loop's body after it **is skipped** and does not execute
-[/slide]
+Used for prematurely **exiting** the loop
 
-[slide]
-# Break Operator: Example
+Can only be executed from the loop's **body**
+
+When it is executed, the code inside the loop's body after it **is skipped** and does not execute
+
 ```csharp
 while (true)
 {

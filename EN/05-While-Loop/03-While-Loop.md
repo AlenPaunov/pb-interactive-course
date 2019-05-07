@@ -1,6 +1,7 @@
 [slide]
 # While Loop
-- Used to repeat a code block until an end condition is met
+Used to repeat a code block until an end condition is met
+
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/05-while-loop/assets/05-while-loop-2.png"/]
 [/slide]
 
@@ -20,9 +21,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number from the console
-    - Prints the numbers starting from the number to 1 (**inclusive**)
+Write a program, which:
+
+* Reads a number from the console
+* Prints the numbers starting from the number to 1 (**inclusive**)
 [/task-description]
 [code-io /]
 [/code-task]
@@ -53,9 +55,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number from the console
-    - Prints the numbers starting from the number to 1 (**inclusive**)
+Write a program, which:
+
+* Reads a number from the console
+* Prints the numbers starting from the number to 1 (**inclusive**)
 [/task-description]
 [code-io /]
 [/code-task]
@@ -81,11 +84,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a **number** from the console
-    - Checks if the number is in the range between **1 and 100**
-        - If it isn't - it reads a **new one**
-        - If it is - **prints the number** and the program stops
+Write a program, which:
+* Reads a **number** from the console
+* Checks if the number is in the range between **1 and 100**
+* If it isn't - it reads a **new one**
+* If it is - **prints the number** and the program stops
 [/task-description]
 [code-io /]
 [/code-task]
@@ -116,11 +119,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a **number** from the console
-    - Checks if the number is in the range between **1 and 100**
-        - If it isn't - it reads a **new one**
-        - If it is - **prints the number** and the program stops
+Write a program, which:
+
+* Reads a **number** from the console
+* Checks if the number is in the range between **1 and 100**
+* If it isn't - it reads a **new one**
+* If it is - **prints the number** and the program stops
 [/task-description]
 [code-io /]
 [/code-task]

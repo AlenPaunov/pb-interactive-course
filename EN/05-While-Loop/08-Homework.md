@@ -14,10 +14,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number from the console
-    - **Sums** the **digits** of a number
-    - Prints the sum
+Write a program, which:
+
+* Reads a number from the console
+* **Sums** the **digits** of a number
+* Prints the sum
 [/task-description]
 [code-io /]
 [/code-task]
@@ -50,10 +51,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number from the console
-    - **Sums** the **digits** of a number
-    - Prints the sum
+Write a program, which:
+
+* Reads a number from the console
+* **Sums** the **digits** of a number
+* Prints the sum
 [/task-description]
 [code-io /]
 [/code-task]
@@ -79,10 +81,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Reads a **book's name** from the console
-  - Receives names until it gets the **same book**
-  - Prints **"Book found!"** and stops afterwards
+Write a program, which: 
+
+* Reads a **book's name** from the console
+* Receives names until it gets the **same book**
+* Prints **"Book found!"** and stops afterwards
 [/task-description]
 [code-io /]
 [/code-task]
@@ -114,10 +117,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Reads a **book's name** from the console
-  - Receives names until it gets the **same book**
-  - Prints **"Book found!"** and stops afterwards
+Write a program, which: 
+
+* Reads a **book's name** from the console
+* Receives names until it gets the **same book**
+* Prints **"Book found!"** and stops afterwards
 [/task-description]
 [code-io /]
 [/code-task]
@@ -143,9 +147,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Receives integers until **"END"**
-  - Prints the **biggest** and the **smallest** integer
+Write a program, which: 
+
+* Receives integers until **"END"**
+* Prints the **biggest** and the **smallest** integer
 [/task-description]
 [code-io /]
 [/code-task]
@@ -182,9 +187,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Receives integers until **"END"**
-  - Prints the **biggest** and the **smallest** integer
+Write a program, which: 
+
+* Receives integers until **"END"**
+* Prints the **biggest** and the **smallest** integer
 [/task-description]
 [code-io /]
 [/code-task]
@@ -210,11 +216,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Receives integer
-  - Prints "\{num\} is special" if the number is special
-  - Special number is number divisible by all of its digits without remainder
-  - Otherwise, prints "\{num\} is not special"
+Write a program, which: 
+
+* Receives integer
+* Prints "\{num\} is special" if the number is special
+* Special number is number divisible by all of its digits without remainder
+* Otherwise, prints "\{num\} is not special"
 [/task-description]
 [code-io /]
 [/code-task]
@@ -252,11 +259,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Receives integer
-  - Prints "\{num\} is special" if the number is special
-  - Special number is number divisible by all of its digits without remainder
-  - Otherwise, prints "\{num\} is not special"
+Write a program, which: 
+
+* Receives integer
+* Prints "\{num\} is special" if the number is special
+* Special number is number divisible by all of its digits without remainder
+* Otherwise, prints "\{num\} is not special"
 [/task-description]
 [code-io /]
 [/code-task]
@@ -283,10 +291,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Reads a special integer number from the console
-  - Keeps reading integers until it finds the same one
-  - When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
+Write a program, which: 
+
+* Reads a special integer number from the console
+* Keeps reading integers until it finds the same one
+* When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
 [/task-description]
 [code-io /]
 [/code-task]
@@ -323,10 +332,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Reads a special integer number from the console
-  - Keeps reading integers until it finds the same one
-  - When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
+Write a program, which: 
+
+* Reads a special integer number from the console
+* Keeps reading integers until it finds the same one
+* When it finds it, it increases the value of the **previous** number **before it** with 20% and prints it
 [/task-description]
 [code-io /]
 [/code-task]
@@ -352,10 +362,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Reads a number **n** from the console
-  - Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
-  - Each number is equal to the previous one multiplied by **2** plus **1**
+Write a program, which: 
+
+* Reads a number **n** from the console
+* Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
+* Each number is equal to the previous one multiplied by **2** plus **1**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -387,10 +398,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Reads a number **n** from the console
-  - Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
-  - Each number is equal to the previous one multiplied by **2** plus **1**
+Write a program, which: 
+
+* Reads a number **n** from the console
+* Prints a **sequence** of numbers, which are **<= n** and satisfy the following condition:
+* Each number is equal to the previous one multiplied by **2** plus **1**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -416,10 +428,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Receives an integer **n** - count of transactions
-  - Receives the amount of money for each transaction
-  - Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
+Write a program, which: 
+
+* Receives an integer **n** - count of transactions
+* Receives the amount of money for each transaction
+* Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
 [/task-description]
 [code-io /]
 [/code-task]
@@ -453,10 +466,11 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which: 
-  - Receives an integer **n** - count of transactions
-  - Receives the amount of money for each transaction
-  - Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
+Write a program, which: 
+
+* Receives an integer **n** - count of transactions
+* Receives the amount of money for each transaction
+* Adds the money to the balance and prints: "***Increase***: \{money\} " and calculates and prints the total balance
 [/task-description]
 [code-io /]
 [/code-task]

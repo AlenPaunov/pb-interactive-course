@@ -1,18 +1,19 @@
 [slide]
 # Simple For Loop
-- Used for repeating the execution of a certain code a known number of times
-- The body of the loop **contains** a block with a source **code**,which is **executed** at each iteration
+Used for repeating the execution of a certain code a known number of times
+
+The body of the loop **contains** a block with a source **code**,which is **executed** at each iteration
+
 ```csharp
 for (initialization; condition; step)
 {   
   // Body of the loop
 }
 ```
-[/slide]
+**Example**
 
-[slide]
-# Simple For Loop: Example
-- Print the numbers ***from 1 to 10***
+Print the numbers ***from 1 to 10***
+
 ```csharp
 // keyword -> initialization -> condition ->  step
 for (int i = 1; i <= 10; i++)
@@ -24,13 +25,15 @@ for (int i = 1; i <= 10; i++)
 
 [slide]
 # Prefix and Postfix
-- Pre-decrement
+Pre-decrement
+
 ```csharp
 int a = 1; 
 Console.WriteLine(--a); // 0
 Console.WriteLine(a);   // 0
 ```
-- Post-decrement
+Post-decrement
+
 ```csharp
 int a = 1; 
 Console.WriteLine(a--); // 1

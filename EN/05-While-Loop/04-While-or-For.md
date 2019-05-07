@@ -1,8 +1,11 @@
 [slide]
 # While or For
-- ***While*** and ***for*** loops both **repeat** a block of **code**
-- Use ***for*** when you know the **number of repetitions**
-- Use ***while*** when you don't know when you will meet the end condition
+***While*** and ***for*** loops both **repeat** a block of **code**
+
+Use ***for*** when you know the **number of repetitions**
+
+Use ***while*** when you don't know when you will meet the end condition
+
 [/slide]
 
 [slide]
@@ -21,9 +24,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads numbers from the console until it gets an **odd number**
-    - Prints the **odd** number
+Write a program, which:
+
+* Reads numbers from the console until it gets an **odd number**
+* Prints the **odd** number
 [/task-description]
 [code-io /]
 [/code-task]
@@ -54,9 +58,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads numbers from the console until it gets an **odd number**
-    - Prints the **odd** number
+Write a program, which:
+
+* Reads numbers from the console until it gets an **odd number**
+* Prints the **odd** number
 [/task-description]
 [code-io /]
 [/code-task]
@@ -82,12 +87,12 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number from the console
-    - Reads the following commands:
-        - **Add** - Аdds 1 to the number
-        - **Subtract** - Subtracts 1 from the number
-        - **END** -  Prints the number and stops the program
+Write a program, which:
+* Reads a number from the console
+* Reads the following commands:
+* **Add** - Аdds 1 to the number
+* **Subtract** - Subtracts 1 from the number
+* **END** -  Prints the number and stops the program
 [/task-description]
 [code-io /]
 [/code-task]
@@ -122,12 +127,13 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads a number from the console
-    - Reads the following commands:
-        - **Add** - Аdds 1 to the number
-        - **Subtract** - Subtracts 1 from the number
-        - **END** -  Prints the number and stops the program
+Write a program, which:
+
+* Reads a number from the console
+* Reads the following commands:
+* **Add** - Аdds 1 to the number
+* **Subtract** - Subtracts 1 from the number
+* **END** -  Prints the number and stops the program
 [/task-description]
 [code-io /]
 [/code-task]
