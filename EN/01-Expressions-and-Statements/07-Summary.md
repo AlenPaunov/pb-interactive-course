@@ -10,11 +10,11 @@ Reading user input
 
 Simple operations
 
-  * Arithmetic operators: 
+    * Arithmetic operators: 
   ```csharp
   +, -, *, /, %
   ```
-  * Formatting output: 
+    * Formatting output: 
   ```csharp
   $"{val:f2}"
   ```
