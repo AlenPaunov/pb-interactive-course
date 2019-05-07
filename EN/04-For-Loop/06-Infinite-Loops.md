@@ -9,10 +9,8 @@ for ( ; ; ) // You can skip the initialization, condition and the increment
   Console.WriteLine("Hello World");
 }
 ```
-[/slide]
 
-[slide]
-# Usage in Programming
+**Usage in Programming**
 
 Widely used in game development for drawing the game environment
 
