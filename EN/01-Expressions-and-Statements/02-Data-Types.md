@@ -9,6 +9,7 @@ Simple data types in C#:
   * **char** – a symbol: 'a', 'b', '#', …
   * **string** – text: "Hello", "World", …
 Sets (ranges) of values with similar characteristics
+
 Data types are characterized by:
   * Name - E.g. bool, int, string, DateTime
   * Size (memory usage)- Example: 4 bytes
