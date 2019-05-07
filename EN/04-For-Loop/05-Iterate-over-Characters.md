@@ -16,14 +16,14 @@ for (char ch = 'a'; ch <= 'd'; ch++)
 
 Computers can only understand numbers
 
-    * ASCII code is the numerical representation of a character
+* ASCII code is the numerical representation of a character
 
     |Dec|Hx|Oct|Html|Chr|
     |---|--|---|----|---|
     |97|61|141|\&\#97;|a|
     |98|62|142|\&\#98;|b|
 
-    * 'a' has the int value of 97
+* 'a' has the int value of 97
 [/slide]
 
 [slide]
