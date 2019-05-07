@@ -35,7 +35,7 @@ Date and time – **DateTime** (e.g. 6-Jun-2020 9:18:34)
 [/slide]
 
 [slide]
-# Expressions
+# Expressions and Statements
 **Expressions** == **variables** and **values**, combined with **operators**
 
 ```csharp
@@ -45,11 +45,8 @@ a = b * 2;
 // b is a variable expression
 // b * 2 is an arithmetic expression
 ```
-[/slide]
 
-[slide]
-# Statements
-Commands / actions to be executed
+Statements - Commands / actions to be executed
 
 ```csharp
 a = b * 2;
