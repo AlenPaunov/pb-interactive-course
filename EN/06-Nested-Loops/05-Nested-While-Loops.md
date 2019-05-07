@@ -49,9 +49,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads the **height** of a triangle from the console
-    - Prints a **triangle of stars**
+Write a program, which:
+
+* Reads the **height** of a triangle from the console
+* Prints a **triangle of stars**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -86,9 +87,10 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-- Write a program, which:
-    - Reads the **height** of a triangle from the console
-    - Prints a **triangle of stars**
+Write a program, which:
+
+* Reads the **height** of a triangle from the console
+* Prints a **triangle of stars**
 [/task-description]
 [code-io /]
 [/code-task]
