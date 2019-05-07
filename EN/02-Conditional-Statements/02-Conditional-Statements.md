@@ -53,7 +53,7 @@ Write a program to check for freezing weather:
 
   * Read a temperature in Celsius (a floating-point number)
   * **Check** whether the temperature is below zero
-  * Print "Freezing weather!", if the temperature is equal or smaller than 0
+  * Print "Freezing weather!", if the temperature is equal or smaller than 0
 [/task-description]
 [code-io /]
 [/code-task]
@@ -89,7 +89,7 @@ Write a program to check for freezing weather:
 
   * Read a temperature in Celsius (a floating-point number)
   * **Check** whether the temperature is below zero
-  * Print "Freezing weather!", if the temperature is equal or smaller than 0
+  * Print "Freezing weather!", if the temperature is equal or smaller than 0
 [/task-description]
 [code-io /]
 [/code-task]
