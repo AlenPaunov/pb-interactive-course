@@ -116,7 +116,7 @@ function sayHello (user) {
 Create a function that:
 
 * Receives a name
-* Prints "Hello, {name}" on the console
+* Prints "Hello, \{name\}" on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -136,7 +136,7 @@ function sayHello (user) {
 Create a function that:
 
 * Receives a name
-* Prints "Hello, {name}" on the console
+* Prints "Hello, \{name\}" on the console
 [/task-description]
 [code-io /]
 [/code-task]
