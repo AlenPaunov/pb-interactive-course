@@ -104,11 +104,11 @@ console.log(firstNum); // undefined
 
 [slide]
 # Problem: Greeting
-[code-task title="Greeting" requiresInput]
-[code-editor language=javascript]
+[code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
 ```
-function sayHello(user) {
-
+function sayHello (user) {
+   // Write your code here
 }
 ```
 [/code-editor]
@@ -124,8 +124,8 @@ Create a function that:
 
 [slide]
 # Solution: Greeting
-[code-task title="Greeting" requiresInput]
-[code-editor language=javascript]
+[code-task title="Greeting" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-editor language=csharp]
 ```
 function sayHello (user) {
    console.log(`Hello, ${user}`);
