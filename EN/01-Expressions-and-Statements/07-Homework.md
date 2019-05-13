@@ -12,7 +12,7 @@ function calculateSpeed (distance, time) {
 Write a function, which:
 
 * Receives 2 numbers - distance and time
-* Calculates the speed needed to travel a given distance for agiven time
+* Calculates the speed needed to travel a given distance for a given time
 * Prints the calculated result
 [/task-description]
 [code-io /]
@@ -40,7 +40,7 @@ function calculateSpeed (distance, time) {
 Write a function, which:
 
 * Receives 2 numbers - distance and time
-* Calculates the speed needed to travel a given distance for agiven time
+* Calculates the speed needed to travel a given distance for a given time
 * Prints the calculated result
 [/task-description]
 [code-io /]
