@@ -2,7 +2,7 @@
 # Declaration Statements
 ***var*** - declares a variable, optionally initializing it to a value
 
-***let** - declares a block scope local variable, optionally initializing it to a value
+***let*** - declares a block scope local variable, optionally initializing it to a value
 
 ***const*** - declares a read-only named constant
 
