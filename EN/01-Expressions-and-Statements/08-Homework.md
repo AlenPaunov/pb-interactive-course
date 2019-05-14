@@ -3,7 +3,12 @@
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-// Write your code here
+public class Program
+{
+  public static void main(String[] args) {
+      // Write code here
+  }
+}
 ```
 [/code-editor]
 [task-description]
@@ -26,10 +31,15 @@ Write a program, which:
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-double a = Double.parseDouble(scanner.nextLine());
-double h = Double.parseDouble(scanner.nextLine());
-double area = (a * h) / 2;
-System.out.printf("%.2f", area);
+public class Program
+{
+  public static void main(String[] args) {
+    double a = Double.parseDouble(scanner.nextLine());
+    double h = Double.parseDouble(scanner.nextLine());
+    double area = (a * h) / 2;
+    System.out.printf("%.2f", area);
+  }
+}
 ```
 [/code-editor]
 [task-description]
