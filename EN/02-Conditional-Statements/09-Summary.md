@@ -1,5 +1,6 @@
 [slide]
 * Logical expressions
+* Comparison operators: <, >, ==, …
 * Conditional statements: **if**, **if-else** and **if-else-if-…**
 * Series of if-else conditions
 * Variable scope

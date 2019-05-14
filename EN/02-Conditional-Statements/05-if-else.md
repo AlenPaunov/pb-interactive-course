@@ -44,7 +44,7 @@ if (color === "red") {
 # Problem: Even or Odd
 [code-task title="Even or Odd" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function evenOrOdd(num) {
     // Write your code here
 }
@@ -69,7 +69,7 @@ Write a function, which:
 # Solution: Even or Odd
 [code-task title="Even or Odd" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function evenOrOdd(num) {
    if (num % 2 === 0) {
       console.log("even");
@@ -98,7 +98,7 @@ Write a function, which:
 # Problem: Greater Number
 [code-task title="Greater Number" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function greaterNumber(num1, num2) {
     // Write your code here
 }
@@ -122,7 +122,7 @@ Write a function, which:
 # Solution: Greater Number
 [code-task title="Greater Number" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function greaterNumber(num1, num2) {
    if (num1 > num2) {
       console.log("Greater number: " + num1);

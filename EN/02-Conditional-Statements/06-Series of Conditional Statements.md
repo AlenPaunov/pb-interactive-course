@@ -31,7 +31,7 @@ else
 # Problem: Number 1...9
 [code-task title="Number 1...9" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function printNumberValue(num) {
     // Write your code here
 }
@@ -56,7 +56,7 @@ Write a function, which:
 # Problem: Number 1...9
 [code-task title="Number 1...9" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function printNumberValue(num) {
     if (num == 1) {
        console.log("one");

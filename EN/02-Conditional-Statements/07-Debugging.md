@@ -12,7 +12,3 @@ We can go to the next step with **[F10]**
 We can create / remove **breakpoints** with **[F9]**
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-js-conditional-statements/assets/debugging-demo.png"/]
 [/slide]
-
-[slide]
-
-[/slide]

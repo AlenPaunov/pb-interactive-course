@@ -14,7 +14,7 @@ The condition holds true or false
 # Problem: Freezing Weather
 [code-task title="Freezing weather" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function freezingWeather(temperature) {
     // Write your code here
 }
@@ -39,7 +39,7 @@ Write a function, which:
 # Solution: Freezing Weather
 [code-task title="Freezing weather" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```
+```js
 function freezingWeather(temperature) {
     if (temperature <= 0) {
       console.log("Freezing weather!");
