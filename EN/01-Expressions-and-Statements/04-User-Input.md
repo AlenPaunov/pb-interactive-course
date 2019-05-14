@@ -41,6 +41,7 @@ The result from the execution would be:
 ```
 Sample Input
 ```
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-java-expressions-and-statements/assets/expressions-and-statements-2.png"/]
 ```
 Sample Output
 ```
