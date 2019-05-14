@@ -5,6 +5,9 @@ Computers are machines that process data
 * Instructions and data are stored in the computer memory
 
 * Data is stored by using variables
+
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-java-expressions-and-statements/assets/expressions-and-statements-1.png"/]
+
 [/slide]
 
 [slide]
