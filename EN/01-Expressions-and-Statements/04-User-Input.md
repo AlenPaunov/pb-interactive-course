@@ -46,3 +46,35 @@ Sample Input
 Sample Output
 ```
 [/slide]
+
+[slide]
+# Reading Integers
+Reading an integer number:
+```java
+int num = Integer.parseInt(scanner.nextLine());
+```
+Example: 
+
+* Calculating square's area by given side ***a***
+```java
+int a = Integer.parseInt(scanner.nextLine());
+int area = a * a;
+System.out.println(area);
+```
+[/slide]
+
+[slide]
+# Reading Floating-Point Numbers
+Reading a floating-point number:
+```java
+double num = Double.parseDouble(scanner.nextLine());
+```
+Example: 
+
+* Convert **inches** to **centimeters**
+```java
+double inches = Double.parseDouble(scanner.nextLine());
+double centimeters = inches * 2.54;
+System.out.println(centimeters);
+```
+[/slide]
