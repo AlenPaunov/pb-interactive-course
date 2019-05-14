@@ -1,7 +1,7 @@
 [slide]
 # Problem: Calculate Speed
-[code-task title="Calculate Speed" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Calculate Speed" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function calculateSpeed (distance, time) {
    // Write your code here
@@ -27,8 +27,8 @@ Write a function, which:
 
 [slide]
 # Solution: Calculate Speed
-[code-task title="Calculate Speed" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Calculate Speed" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function calculateSpeed (distance, time) {
    let speed = distance / time;
@@ -55,8 +55,8 @@ Write a function, which:
 
 [slide]
 # Problem: Currency Converter
-[code-task title="Currency Converter" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Currency Converter" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function currencyConverter (dollars) {
    // Write your code here
@@ -83,8 +83,8 @@ Write a function, which:
 
 [slide]
 # Solution: Currency Converter
-[code-task title="Currency Converter" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Currency Converter" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function currencyConverter (dollars) {
    let euros = dollars * 0.88; 
@@ -113,8 +113,8 @@ Write a function, which:
 
 [slide]
 # Problem: Inches to Centimeters
-[code-task title="Inches to Centimeters" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Inches to Centimeters" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function inchesToCentimeters (inches) {
    // Write your code here
@@ -141,8 +141,8 @@ Write a function, which:
 
 [slide]
 # Solution: Inches to Centimeters
-[code-task title="Inches to Centimeters" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Inches to Centimeters" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function inchesToCentimeters (inches) {
    let centimeters = inches * 2.54;
@@ -170,8 +170,8 @@ Write a function, which:
 
 [slide]
 # Problem: Four Operations
-[code-task title="Four Operations" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Four Operations" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function fourOperations(num1, num2){
     // Write code here
@@ -196,8 +196,8 @@ Write a function, which:
 
 [slide]
 # Solution: Four Operations
-[code-task title="Four Operations" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Four Operations" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function fourOperations (num1, num2) {
    console.log(`${num1} + ${num2} = ${num1 + num2}`);
@@ -225,8 +225,8 @@ Write a function, which:
 
 [slide]
 # Problem: Days to Minutes
-[code-task title="Days to Minutes" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Days to Minutes" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function daysToMinutes (days) {
    // Write your code here
@@ -253,8 +253,8 @@ Write a function, which:
 
 [slide]
 # Solution: Days to Minutes
-[code-task title="Days to Minutes" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Days to Minutes" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function daysToMinutes (days) {
    let hours = days * 24;
@@ -283,8 +283,8 @@ Write a function, which:
 
 [slide]
 # Problem: Circle Area and Perimeter
-[code-task title="Circle Area and Perimeter" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Circle Area and Perimeter" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function circleArea (radius) {
    // Write your code here
@@ -310,8 +310,8 @@ Write a function, which:
 
 [slide]
 # Solution: Circle Area and Perimeter
-[code-task title="Circle Area and Perimeter" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Circle Area and Perimeter" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function circleArea (radius) {
    let area = radius * radius * Math.PI;
@@ -340,8 +340,8 @@ Write a function, which:
 
 [slide]
 # Problem: Person Info
-[code-task title="Person Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Person Info" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function personInfo (firstName, lastName, country, town) {
    // Write your code here
@@ -366,8 +366,8 @@ Write a function, which:
 
 [slide]
 # Solution: Person Info
-[code-task title="Person Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Person Info" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function personInfo (firstName, lastName, country, town) {
    console.log(`${firstName} ${lastName} from ${country} -   ${town}!`);
@@ -392,8 +392,8 @@ Write a function, which:
 
 [slide]
 # Problem: Town Info
-[code-task title="Town Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Town Info" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function townInfo (townName, population, area) {
   // Write your code here
@@ -418,8 +418,8 @@ Write a function, which:
 
 [slide]
 # Solution: Town Info
-[code-task title="Town Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Town Info" executionStrategy="javascript-code" requiresInput]
+[code-editor language="javascript"]
 ```
 function townInfo (townName, population, area) {
   console.log(`Town ${townName} has population of ${population} and area {area} square km.`);
