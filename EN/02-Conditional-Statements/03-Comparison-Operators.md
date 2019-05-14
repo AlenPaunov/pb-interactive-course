@@ -1,6 +1,13 @@
 [slide]
 # Comparison Operators
-// TODO
+|Operators|Designation|
+|---------|-----------|
+|Equal value (and type)|== (===)|
+|Not equal value (and type)|!= (!==)|
+|Greater than|>|
+|Greater than or equal to|>=|
+|Less than|<|
+|Less than or equal to|<=|
 [/slide]
 
 [slide]
