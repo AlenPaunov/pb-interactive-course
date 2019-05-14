@@ -67,5 +67,40 @@ System.out.println(str); // a + b = 511
 
 [slide]
 # Arithmetic Operators
-
+Adding numbers (operator **+** )
+```java
+int a = 5;
+int b = 7;
+int sum = a + b;
+System.out.println(sum); // 12
+```
+Subtracting numbers (operator **-** )
+```java
+int a = 15;
+int b = 7;
+System.out.println(a - b); // 8
+```
+Multiplying numbers (operator **\***)
+```java
+int a = 5;
+int b = 7;
+System.out.println(a * b); // 35
+```
+Dividing numbers (operator **\/** )
+```java
+int a = 25;
+int b = 4;
+System.out.println(a / b); // 6
+```
+Modulo / remainder from integer division (operator **%**)
+```java
+int a = 7;
+int b = 2;
+System.out.println(a % b);   // 1
+```
+```java
+System.out.println(3 % 2);   // 1
+System.out.println(4 % 2);   // 0
+System.out.println(3.5 % 1); // 0.5
+```
 [/slide]
