@@ -3,7 +3,7 @@
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -34,7 +34,7 @@ Write a program to calculate a triangle area:
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -69,7 +69,7 @@ Write a program to calculate a triangle area:
 [code-task title="Four Operations" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -101,7 +101,7 @@ Write a program, which:
 [code-task title="Four Operations" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -137,7 +137,7 @@ Write a program, which:
 [code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -169,7 +169,7 @@ Write a program to convert from days to minutes:
 [code-task title="Days to Minutes" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -204,7 +204,7 @@ Write a program to convert from days to minutes:
 [code-task title="Currency Converter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -236,7 +236,7 @@ Write a program to convert from USD to EUR:
 [code-task title="Currency Converter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -270,7 +270,7 @@ Write a program to calculate the speed by time and distance:
 [code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -301,7 +301,7 @@ Write a program to calculate a circle area and perimeter:
 [code-task title="Circle Area and Perimeter" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -336,7 +336,7 @@ Write a program to calculate a circle area and perimeter:
 [code-task title="Inches to Centimeters" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -368,7 +368,7 @@ Write a program to convert from inches to centimeters:
 [code-task title="Inches to Centimeters" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -402,7 +402,7 @@ Write a program to convert from inches to centimeters:
 [code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -433,7 +433,7 @@ Write a program to calculate the speed by time and distance:
 [code-task title="Calculate Speed" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -468,7 +468,7 @@ Write a program to calculate the speed by time and distance:
 [code-task title="Person Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -498,7 +498,7 @@ Write a program, which:
 [code-task title="Person Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -532,7 +532,7 @@ Write a program, which:
 [code-task title="Town Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
@@ -562,7 +562,7 @@ Write a program, which:
 [code-task title="Town Info" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-using System;
+
 public class Program
 {
   public static void main(String[] args) {
