@@ -10,5 +10,5 @@ if humidity > 90%
 else
   water the plants
 ```
-
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/02-js-conditional-statements/assets/water-plant.png"/]
 [/slide]
