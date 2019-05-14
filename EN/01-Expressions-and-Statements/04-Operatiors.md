@@ -33,8 +33,8 @@ a /= 2;      // 6
 
 [slide]
 # Problem: Area of Triangle
-[code-task title="Area of Triangle" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Area of Triangle" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
 function printTriangleArea(a, h) {
     // Write your code here
@@ -59,8 +59,8 @@ Create a function that receives two numbers:
 
 [slide]
 # Solution: Area of Triangle
-[code-task title="Area of Triangle" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Area of Triangle" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
 function printTriangleArea(a, h) {
    let area = (a * h) / 2;
