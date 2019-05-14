@@ -37,5 +37,27 @@ Write a function, which:
 
 [slide]
 # Solution: Freezing Weather
-
+[code-task title="Freezing weather" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
+```
+function freezingWeather(temperature) {
+    if (temperature <= 0) {
+      console.log("Freezing weather!");
+   }
+}
+```
+[/code-editor]
+[task-description]
+Write a function, which:
+* Receives a temperature in Celsius
+* **Checks** whether the temperature is **below** zero
+* Prints "**Freezing weather!**", if the temperature is equal or smaller than 0
+[/task-description]
+[code-io /]
+[/code-task]
+# Sample Input and Output
+|Input|Output|
+|-----|------|
+|4|No output|
+|-2|Freezing weather!|
 [/slide]
