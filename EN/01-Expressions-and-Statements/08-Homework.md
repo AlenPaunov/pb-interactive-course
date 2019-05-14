@@ -22,7 +22,7 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Problem: Area of Triangle
+# Solution: Area of Triangle
 [code-task title="Area of Triangle" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
