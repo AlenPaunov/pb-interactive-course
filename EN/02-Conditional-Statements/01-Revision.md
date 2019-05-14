@@ -33,11 +33,11 @@ Six data types that are primitives:
 **Expressions** == **variables** and **values**, combined with **operators**
 ```js
 a = b * 2;
+// **2** is a literal value expression
+// **a = b * 2** is an assignment expression
+// **b** is a variable expression
+// **b * 2** is an arithmetic expression
 ```
-**2** is a literal value expression
-**a = b * 2** is an assignment expression
-**b** is a variable expression
-**b * 2** is an arithmetic expression
 [/slide]
 
 [slide]
@@ -45,8 +45,8 @@ a = b * 2;
 Commands / actions to be executed
 ```js
 a = b * 2;
+// Get the current value stored in **b**
+// Multiply that value by **2**
+// Store the result back into another variable we call **a**
 ```
-Get the current value stored in **b**
-Multiply that value by **2**
-Store the result back into another variable we call **a**
 [/slide]
