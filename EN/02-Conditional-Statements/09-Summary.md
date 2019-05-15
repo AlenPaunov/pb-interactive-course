@@ -1,4 +1,5 @@
 [slide]
+# Summary
 * Logical expressions
 * Comparison operators: <, >, ==, …
 * Conditional statements: **if**, **if-else** and **if-else-if-…**
