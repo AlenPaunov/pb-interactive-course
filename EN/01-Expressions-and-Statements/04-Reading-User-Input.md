@@ -93,4 +93,5 @@ Open the terminal in your working folder and execute
 ```
 python {file_name}
 ```
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/01-python-expressions-and-statements/assets/expressions-and-statements-1.png"/]
 [/slide]
