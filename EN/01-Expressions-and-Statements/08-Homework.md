@@ -21,7 +21,7 @@ Write a program, which:
 [/slide]
 
 [slide]
-# Problem: Welcome
+# Solution: Welcome
 [code-task title="Welcome" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
