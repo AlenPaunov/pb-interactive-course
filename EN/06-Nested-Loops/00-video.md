@@ -1,8 +1,6 @@
-# Technical Session
-
 [slide]
-# Slide Title
 
+# Technical Session
 [youtube-video id='NCDAJFSPZVs' /]
 
 [/slide]
