@@ -1,6 +1,7 @@
 [slide]
 # Nested Conditions
 An **if-else** statement can be **nested** within another **if-else** statement
+
 Generally used when we have to test one condition followed by another
 
 ```js
@@ -16,7 +17,9 @@ if (expression) {
 [slide]
 # Conditional Operators
 Logical operators are used to perform logical operation such as **AND**, **OR**, **NOT**
+
 The logical operators are:
+
 * AND (**&&**)
 * OR (**||**)
 * NOT (**!**)
@@ -26,7 +29,9 @@ The logical operators are:
 [slide]
 # Switch-Case 
 Used for choosing among a list of possibilities
+
 Alternative to an **if-else** statement
+
 ```js
 switch (selector) {
   case someCase:
