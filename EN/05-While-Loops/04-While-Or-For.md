@@ -92,11 +92,12 @@ Write a function to process a sequence of commands:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|2|3|
-|4||
-|8||
-|3||
-|5|5|
+|5|6|
+|Add||
+|End||
+|5|4|
+|Subtract||
+|End||
 [/slide]
 
 [slide]
@@ -131,9 +132,10 @@ Write a function to process a sequence of commands:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|2|3|
-|4||
-|8||
-|3||
-|5|5|
+|5|6|
+|Add||
+|End||
+|5|4|
+|Subtract||
+|End||
 [/slide]
