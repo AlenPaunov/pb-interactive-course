@@ -1,34 +1,45 @@
 [slide]
-# Simple For Loop
-The **For** loop is used for repeating the execution of a certain code known number of times
+# While Loop
+Control flow statement 
 
-* The body of the loop **contains** a block with a source **code**, which is **executed** at each iteration
-
+Executes code repeatedly while a condition is true
 ```js
-for (initialization; condition; iterator) {
-  //Body of the loop
+while (condition) {
+   // Body of the loop
 }
-``` 
-Example: Print the numbers from **1 to 10**
+```
+Example: Print the numbers from 1 to 5
 ```js
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
+let i = 1;
+while (i <= 5) {
+   console.log(i);
+   i++;
 }
 ```
 [/slide]
 
 [slide]
-# Prefix and Postfix
-Pre-decrement
+# While or For?
+***while*** and ***for*** loops **repeat** blocks of **code**
+
+Use ***for*** when you know in advance the **number of repetitions**
+
+Use ***while*** when you don't know when the **exit condition** will be met
+[/slide]
+
+[slide]
+# The "break" Operator
+Used for **prematurely exiting** the loop
+
+Can only be executed from the **body**, during **an iteration** of the loop
+
+***break*** immediately exits from the loop
+* The rest of the loop body **is skipped**
 ```js
-let a = 1; 
-console.log(--a);
-console.log(a);
-```
-Post-decrement
-```js
-let a = 1; 
-console.log(a--);
-console.log(a);
+let i = 1;
+while (true) {
+  if (i>10) break;
+  i++;
+}
 ```
 [/slide]
