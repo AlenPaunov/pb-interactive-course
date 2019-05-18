@@ -1,6 +1,10 @@
 [slide]
-# Creating a Console Application in IntelliJ IDEA
-Create new Console Application in IntelliJ IDEA: [New Project] -> [Java] -> [Template Command Line App] -> [Finish]
+# Creating a Console Application in VS Code
+Create a folder for your project and open it from VS Code:
+
+[File] -> [Open Folder]
+
+[image src=""/]
 
 # Configuring JDK in IntelliJ IDEA
 If no JDK is still configured, you should configure it:
