@@ -4,32 +4,22 @@ The Python IDE with intelligent code completion, quick-fixes, and much more…
 
 For Windows, Linux and macOS
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-3.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-2.png"/]
 
-# Installing VS Code
-Download from: https://nodejs.org/en/download/
+# Installing PyCharm
+Download from: https://www.python.org/downloads/
 [/slide]
 
 [slide]
-# What is Visual Studio Code?
-
-Visual Studio Code (**VS Code**) is powerful code editor and IDE
-
-For Windows, Linux and macOS, free and open-source
-
-**Many languages** & frameworks: JavaScript, Node.js, C#, Python, Java, PHP, Go, C++, Ruby, etc.
-[/slide]
-
-[slide]
-# Installing VS Code
+# Installing PyCharm Community
 Easy to install 
 
-Choose your OS and follow the installer
+Choose your operating system and follow the instructions of the installer
 
-Download from: https://code.visualstudio.com/download
+Download from: https://www.jetbrains.com/pycharm/download/#section=windows
 
-# Projects in VS Code
-VS Code **explorer** holds **projects**
+# Solutions and Projects in VS Code
+PyCharm **explorer** hold projects (Alt + 1)
 
-**Projects** hold source code files: **.js files**
+Project hold source code files: **.py files**
 [/slide]
