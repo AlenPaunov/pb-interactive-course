@@ -36,16 +36,3 @@ A program in JS is written in text format (**source code**)
 
 The **interpreter** executes the code line by line
 [/slide]
-
-[slide]
-# JDK and JRE
-JDK – Java Development Toolkit
-
-* Java software development kit (Java SDK) – toolset for developers
-* Includes a **virtual machine** (JVM), a **Java compiler** (javac) and other developer tools
-* JDK is available for free download from Oracle: https://www.oracle.com/technetwork/java/javase/downloads/
-
-JDK should not be confused for a runtime environment (JRE)
-
-* JRE allow to **run** Java programs, but can't **develop own programs**
-[/slide]
