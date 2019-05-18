@@ -1,40 +1,32 @@
 [slide]
-# Problem: Print "Hello JavaScript"
-[code-task title="Print "Hello Javascript" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+# Problem: Print "Hello Python"
+[code-task title="Print "Hello Python" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function hello() {
-   // Write your code here
-}
-
-hello();
+# Write your code here
 ```
 [/code-editor]
 [task-description]
-Write a JavaScript program, which:
+Write a python program, which:
 
-Prints "Hello JavaScript" on the console
+Prints "Hello Python" on the console
 [/task-description]
 [code-io /]
 [/code-task]
 [/slide]
 
 [slide]
-# Solution: Print "Hello javascript"
-[code-task title="Print "Hello javascript" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+# Solution: Print "Hello Python"
+[code-task title="Print "Hello python" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function hello() {
-   console.log("Hello JavaScript");
-}
-
-hello();
+print("Hello Python")
 ```
 [/code-editor]
 [task-description]
-Write a JavaScript program, which:
+Write a python program, which:
 
-Prints "Hello JavaScript" on the console
+Prints "Hello Python" on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -42,18 +34,14 @@ Prints "Hello JavaScript" on the console
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function calculate() {
-   // Write your code here
-}
-
-calculate();
+# Write your code here
 ```
 [/code-editor]
 [task-description]
-Write a JavaScript program, which:
+Write a python program, which:
 
 * Calculates the value of 5 * 5
 
@@ -65,18 +53,14 @@ Write a JavaScript program, which:
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function calculate() {
-   console.log(5 * 5);
-}
-
-calculate();
+print(5 * 5)
 ```
 [/code-editor]
 [task-description]
-Write a JavaScript program, which:
+Write a python program, which:
 
 * Calculates the value of 5 * 5
 * Prints the result
@@ -87,14 +71,10 @@ Write a JavaScript program, which:
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Name and Expression" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function nameAndExpression() {
-    // Write your code here
-}
-
-nameAndExpression();
+# Write your code here
 ```
 [/code-editor]
 [task-description]
@@ -113,15 +93,11 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Name and Expression" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function nameAndExpression() {
-    console.log("Maria");
-    console.log(5 + 3);
-}
-
-nameAndExpression();
+print("Maria")
+print(5 + 3)
 ```
 [/code-editor]
 [task-description]
@@ -140,14 +116,10 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Calculations" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function calculations() {
-    // Write your code here
-}
-
-calculations();
+# Write your code here
 ```
 [/code-editor]
 [task-description]
@@ -163,16 +135,12 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Calculations" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-function calculations() {
-    console.log(5 + 3 * 2);
-    console.log(4 * (2 + 3));
-    console.log((2 + 5) * (8 - 2) / 7);
-}
-
-calculations();
+print(5 + 3 * 2)
+print(4 * (2 + 3))
+print((2 + 5) * (8 - 2) / 7)
 ```
 [/code-editor]
 [task-description]
@@ -188,16 +156,10 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
+# Write your code here
 ```
 [/code-editor]
 [task-description]
@@ -218,16 +180,16 @@ Prints a square of 7 * 7 stars like this:
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="javascript-code" requiresInput]
-[code-editor language=javascript]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 ```
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
-console.log("* * * * * * *");
+print("* * * * * * *")
+print("* * * * * * *")
+print("* * * * * * *")
+print("* * * * * * *")
+print("* * * * * * *")
+print("* * * * * * *")
+print("* * * * * * *")
 ```
 [/code-editor]
 [task-description]
