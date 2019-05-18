@@ -1,8 +1,9 @@
 [slide]
-# What is Node.js?
-Node.js == server-side JavaScript runtime + toolset for developers
+# What is PyCharm?
+The Python IDE with intelligent code completion, quick-fixes, and much more…
 
-Executes JavaScript (JS) code outside of the Web browser
+For Windows, Linux and macOS
+
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-3.png"/]
 
 # Installing VS Code
