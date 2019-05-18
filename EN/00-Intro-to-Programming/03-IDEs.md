@@ -4,48 +4,49 @@ Integrated Development Environments (**IDE**) simplify software development
 
 IDEs save time and eases the process of coding
 
-Writing, running, testing, and debugging the code
+* Writing, running, testing, and debugging the code
 
-For programming in C#, we use **Visual Studio**
+For Java programming, we shall use **IntelliJ IDEA Community**
 
-Free C# IDE from Microsoft
+* Free, open-source IDE from JetBrains
+* https://jetbrains.com/idea
 [/slide]
 
 [slide]
 # Integrated Development Environments (IDE)
 To write programs, we need an IDE
 
-For C#:
+For **Java**:
 
-* Visual Studio (for Windows)
-* Visual Studio / Raider (for macOS)
-* Visual Studio Code / Raider (for Linux)
+* **IntelliJ IDEA**
+* **Eclipse**
+* **NetBeans**
 
-For Java -> IntelliJ IDEA / Eclipse / NetBeans
+For **C#**-> Visual Studio / Raider / VS Code
 
-For Python -> PyCharm / Eclipse / VS Code
+For **Python** -> PyCharm / Eclipse / VS Code
 
-For JavaScript -> WebStorm / VS Code
+For **JavaScript** -> WebStorm / VS Code
 [/slide]
 
 [slide]
 # Development Environments: Desktop and Online
-Install Microsoft Visual Studio Community
+Install JetBrains IntelliJ IDEA Community
 
-* https://visualstudio.com/products/visual-studio-community-vs
-* You can use an older version, but it is not recommended
+* https://www.jetbrains.com/idea/download/
+* You can use an older version, but better use the latest
 
 Alternative IDE (online)
 
+* Java: https://www.compilejava.net, https://repl.it/languages/java
 * C#: https://dotnetfiddle.net
-* Java: https://compilejava.net 
 * Python: https://repl.it
-* JavaScript: directly use the browser console (press \[F12\] key)
+* JavaScript: directly use the Web browser console (press \[F12\] key)
 [/slide]
 
 [slide]
 # Online Coding Environments (IDEs)
-The .NET Fiddle Online IDE: https://dotnetfiddle.net
+The "Compile Java" Online IDE: https://compilejava.net
 
 [image src="https://github.com/tany1610/programming-basics-interactive-csharp/blob/master/assets/intro-to-programming-3.png"/]
 
