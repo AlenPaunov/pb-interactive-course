@@ -2,36 +2,29 @@
 # Creating a Console Application in VS Code
 Create a folder for your project and open it from VS Code:
 
-[File] -> [Open Folder]
+\[File\] -> \[Open Folder\]
 
-[image src=""/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-4.png"/]
 
-# Configuring JDK in IntelliJ IDEA
-If no JDK is still configured, you should configure it:
+# Writing Programming Code in VS Code
+Create a file hello.js to hold your program's source code:
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-4.png"/]
 
-Click [New] and locate your JDK installation:
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-5.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-5.png"/]
 [/slide]
 
 [slide]
-# Writing Programming Code in IntelliJ IDEA
-The commands of the program are written in main(String\[\] args)
+# Starting the Program in VS Code
+To start the program, press \[Ctrl + F5\]
 
-* Between the opening and closing curly brackets \{ \}
+The result will appear in the \[Debug Console\] tab
 
-Press \[Enter\] after the opening bracket \{ and type your commands
-
-The code of the program is written with indentation
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-6.png"/]
 [/slide]
 
 [slide]
-# Starting the Program in IntelliJ IDEA
-To start the program, press \[Ctrl + Shift + F10\]
+# Start the Current JS File in VS Code
+In VS Code \[F5\] / \[Ctrl+F5\] keys runs your earliest created .js file
 
-If there are no errors, the program will be launched
-
-The result will appear in the console (terminal window):
+If you have multiple .js files in VS Code, you may want to start the current file with \[F5\] / \[Ctrl + F5\] -> edit the launch configuration:
 [/slide]
