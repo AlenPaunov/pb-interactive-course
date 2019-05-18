@@ -4,12 +4,11 @@ What is Coding?
 
 * Commands and Programs
 
-The C# Language
+The **Java** Language
 
-The Visual Studio IDE
+The **IntelliJ IDEA IDE**
 
-* Installing VS
+* Installing IntelliJ IDEA Community
 
-* Writing C# Console Apps
-
+* Writing **Java Console Apps**
 [/slide]
