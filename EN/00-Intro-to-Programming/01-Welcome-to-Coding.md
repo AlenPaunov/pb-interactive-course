@@ -58,41 +58,38 @@ System.out.println("Size = " + size);
 System.out.println("Area = " + size * size);
 ```
 
-[image src="https://github.com/tany1610/programming-basics-interactive-java/blob/master/assets/intro-to-programming-1.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-1.png"/]
 [/slide]
 
 [slide]
 # Complete Computer Program
-Sample complete C# program (class + method + commands):
+Sample complete Java program (class + method + commands):
 ```java
-using System;
-
-class SquareArea
-{
-  public static void Main()
-  {
-    var size = 5;
-    Console.WriteLine("Size = " + size);
-    Console.WriteLine("Area = " + size * size);
+public class Main {
+  public static void main(String[] args) {
+    int size = 5;
+    System.out.println("Size = " + size);
+    System.out.println(
+      "Area = " + size * size);
   }
 }
 ```
 [/slide]
 
 [slide]
-# Console-Based C# Program – Example
-C# program, which converts from USD to EUR
-
+# Console-Based Java Program – Example
+C# program, which converts from **USD** to **EUR**
 ```java
 using System;
 
-class SquareArea
+class Program
 {
   public static void Main()
   {
-    var dollars = int.Parse(Console.ReadLine());
-    var euro = dollars * 0.883795087;
-    Console.WriteLine("Euro: " + euro);
+    Scanner scanner = new Scanner(System.in);
+    int dollars = scanner.nextInt();
+    double euro = dollars * 0.883795087;
+    System.out.print("Euro: " + euro);
   }
 }
 ```
