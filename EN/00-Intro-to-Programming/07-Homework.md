@@ -179,7 +179,7 @@ Prints a square of 7 * 7 stars like this:
 [/slide]
 
 [slide]
-# Problem: Square of 7 * 7 Stars
+# Solution: Square of 7 * 7 Stars
 [code-task title="Square of 7 * 7 Stars" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
