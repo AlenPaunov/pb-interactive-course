@@ -14,12 +14,10 @@ The **interpreter** executes the code line by line
 [/slide]
 
 [slide]
-# The JavaScript Language
-**JavaScript** is prototype-based, multi-paradigm, dynamic language
+# The Python Language
+**Python** is an interpreted programming language
 
-* Supports imperative, functional and object-oriented programming
-
-Used both on the **client-side** (in the Web browser) andon the server-side (in Node.js)
+Used for developing complex scientific and numeric applications
 
 Good choice for **beginners**
 
@@ -29,10 +27,10 @@ Good choice for **beginners**
 [/slide]
 
 [slide]
-# JavaScript Execution
-JavaScript is a **high-level**, **dynamic**, **interpreted language**
+# Python Execution
+Python is a **high-level language**, which is **interpreted**
 
-A program in JS is written in text format (**source code**)
+A program in Python is written in text format (**source code**)
 
 The **interpreter** executes the code line by line
 [/slide]

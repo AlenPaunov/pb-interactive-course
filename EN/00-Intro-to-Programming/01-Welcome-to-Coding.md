@@ -58,5 +58,5 @@ print("Size = ", size)
 print("Area = ", size * size)
 ```
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-2.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-1.png"/]
 [/slide]
