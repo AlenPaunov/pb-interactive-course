@@ -1,19 +1,34 @@
 [slide]
-# What is IntelliJ IDEA?
-IntelliJ IDEA is a powerful IDE for Java developers
+# What is Node.js?
+Node.js == server-side JavaScript runtime + toolset for developers
 
-Runs in Windows, Linux and macOS
+Executes JavaScript (JS) code outside of the Web browser
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-3.png"/]
 
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-3.png"/]
+# Installing VS Code
+Download from: https://nodejs.org/en/download/
 [/slide]
 
 [slide]
-# Installing IntelliJ IDEA
-Download the IntelliJ IDEA installer and follow the instructions
+# What is Visual Studio Code?
 
-https://www.jetbrains.com/idea/download/
-# Projects in IntelliJ IDEA
-The project explorer holds the project files \[Alt + 1\]
+Visual Studio Code (**VS Code**) is powerful code editor and IDE
 
-The project source code consists of .java files (Java classes)
+For Windows, Linux and macOS, free and open-source
+
+**Many languages** & frameworks: JavaScript, Node.js, C#, Python, Java, PHP, Go, C++, Ruby, etc.
+[/slide]
+
+[slide]
+# Installing VS Code
+Easy to install 
+
+Choose your OS and follow the installer
+
+Download from: https://code.visualstudio.com/download
+
+# Projects in VS Code
+VS Code **explorer** holds **projects**
+
+**Projects** hold source code files: **.js files**
+[/slide]
