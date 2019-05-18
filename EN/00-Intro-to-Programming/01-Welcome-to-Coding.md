@@ -62,44 +62,57 @@ Programmers use IDE (like Visual Studio Code) to:
 Sample C# program (sequence of JavaScript commands):
 
 ```js
-int size = 5;
-System.out.println("Size = " + size);
-System.out.println("Area = " + size * size);
+let size = 5;
+console.log("Size = " + size);
+console.log("Area = " + size * size);
 ```
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-1.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-2.png"/]
 [/slide]
 
 [slide]
 # Complete Computer Program
-Sample complete js program (class + method + commands):
+Sample complete JavaScript program (class + method + commands):
 ```js
-public class Main {
-  public static void main(String[] args) {
-    int size = 5;
-    System.out.println("Size = " + size);
-    System.out.println(
-      "Area = " + size * size);
-  }
+function calculateArea() {
+  let size = 5;
+  console.log("Size = " + size);
+  console.log("Area = " + size * size);
 }
+calculateArea();
 ```
 [/slide]
 
 [slide]
-# Console-Based js Program – Example
-C# program, which converts from **USD** to **EUR**
+# Console-Based JavaScript Program – Example
+JavaScript program, which converts from USD to EUR
 ```js
-using System;
+function convertUsdToEur(input) {
+  let dollars = parseFloat(input);
+  let euro = dollars * 0.883795087;
+  console.log("Euro: " + euro);
+}
+convertUsdToEur("5");
+```
+[/slide]
 
-class Program
-{
-  public static void Main()
-  {
-    Scanner scanner = new Scanner(System.in);
-    int dollars = scanner.nextInt();
-    double euro = dollars * 0.883795087;
-    System.out.print("Euro: " + euro);
-  }
+[slide]
+# Browser-Based JS Program – Example
+Convert from **USD** to **EUR** in a Web page (HTML code)
+```html
+<html><body>
+  <script src="converter.js"></script>
+  Dollars: <input type="text" id="dollarsBox" />
+  <button onclick="convertUsdToEur()">Convert</button>
+  Euro: <input type="text" id="eurosBox" readonly />
+</body></html>
+```
+```js
+function convertUsdToEur() {
+  let dollars = parseFloat(
+    document.getElementById("dollarsBox").value);
+  let euro = dollars * 0.883795087;
+  document.getElementById("eurosBox").value = euro;
 }
 ```
 [/slide]
