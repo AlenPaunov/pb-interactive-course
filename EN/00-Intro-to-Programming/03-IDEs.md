@@ -1,41 +1,40 @@
 [slide]
 # Integrated Development Environments (IDE)
-To write programs, we need an **IDE** (development environment)
+Integrated Development Environments (**IDE**) simplify software development
 
-For **JavaScript**:
+IDEs save time and eases the process of coding
 
-* **Visual Studio Code** (free IDE)
-* **WebStorm** (paid IDE)
-* **Atom / Vim / NetBeans / Eclipse / Visual Studio**
+For programming in Python, we use **PyCharm Community**
+
+To write programs, we need an **IDE**
+
+For **Python**:
+
+* **PyCharm** (IDE)
+* **Visual Studio Code** (free editor)
+* **Eclipse** (IDE)
 
 For **Java** -> IntelliJ IDEA / Eclipse / NetBeans
-For **Python** -> PyCharm / Eclipse / VS Code
-For **C#** -> Visual Studio / Raider / VS Code
 
-Integrated Development Environments (IDE) simplify the software development
+For **JavaScript** -> VS Code / WebStorm
 
-IDEs save time and help developers
-
-* Writing, running, testing, and debugging the code + deployment
-
-For programming in JavaScript, we may use the Visual Studio Code IDE
-
-* Free code editor from Microsoft
+For **C#** -> Visual Studio / Raider
 [/slide]
 
 [slide]
 # Development Environments: Desktop and Online
 
-Install Visual Studio Code: https://code.visualstudio.com
+Install JetBrains PyCharm Community
+
+* https://www.jetbrains.com/pycharm/download/#section=windows
+* You can use an older version, but it is not recommended
 
 Alternative IDE (online)
-* JavaScript: directly use the browser console (press \[F12\] key)
-
-    * Or use https://playcode.io, https://repl.it/languages/nodejs, https://codesandbox.io, https://jsbin.com
 
 * C#: https://dotnetfiddle.net
-
 * Java: https://compilejava.net 
-
 * Python: https://repl.it
+* JavaScript: directly use thebrowser console (press \[F12\] key)
+
+The repl.it Online IDE: https://repl.it
 [/slide]
