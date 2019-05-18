@@ -5,22 +5,22 @@ Start PyCharm
 Create Project: \[Create New Project\] -> \[Project Location\] -> \[Create\] 
 
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-4.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-3.png"/]
 
-# Writing Programming Code in VS Code
-Create a file hello.js to hold your program's source code:
+# Writing Programming Code in PyCharm
+Create the file where we will write the source code for our program
 
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-5.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-python-intro-to-programming/assets/intro-to-programming-4.png"/]
 [/slide]
 
 [slide]
-# Starting the Program in VS Code
-To start the program, press \[Ctrl + F5\]
+# Starting the Program in PyCharm
+To start the program, press \[Ctrl + Shift + F10\]
 
-The result will appear in the \[Debug Console\] tab
+If there are no errors, the program will be launched
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-6.png"/]
+The result will appear in the Console
+
 [/slide]
 
 [slide]
