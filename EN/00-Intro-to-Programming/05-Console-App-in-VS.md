@@ -1,17 +1,12 @@
 [slide]
-# Creating a Console Application in Visual Studio
-Start Visual Studio (VS)
+# Creating a Console Application in IntelliJ IDEA
+Create new Console Application in IntelliJ IDEA: [New Project] -> [Java] -> [Template Command Line App] -> [Finish]
 
-Create new Console Application: \[File\] -> \[New\] -> \[Project\] -> \[Visual C#\] -> \[Windows\] -> \[Console Application\]
-
-# Writing Programming Code in VS
-The commands of the program are written in  Main(string[] args)
-
-Between the opening and closing curly brackets \{ \}
-
-Press \[Enter\] after the opening bracket \{
-
-The code of the program is written with indentation
+# Configuring JDK in IntelliJ IDEA
+If no JDK is still configured, you should configure it:
+[image src=""/]
+Click [New] and locate your JDK installation:
+[image src=""/]
 [/slide]
 
 [slide]
