@@ -1,4 +1,4 @@
-# Programming Basics with JavaScript
+# Programming Basics with Java
 
 ## Description
 This course teaches the **basics of coding**, such as:
