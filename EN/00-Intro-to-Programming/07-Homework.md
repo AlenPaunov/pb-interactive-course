@@ -1,40 +1,40 @@
 [slide]
-# Problem: Print "Hello Java"
-[code-task title="Print "Hello Java" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+# Problem: Print "Hello JavaScript"
+[code-task title="Print "Hello Javascript" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
+function hello() {
+   // Write your code here
 }
+
+hello();
 ```
 [/code-editor]
 [task-description]
-Write a Java program, which:
+Write a JavaScript program, which:
 
-Prints "Hello Java" on the console
+Prints "Hello JavaScript" on the console
 [/task-description]
 [code-io /]
 [/code-task]
 [/slide]
 
 [slide]
-# Solution: Print "Hello Java"
-[code-task title="Print "Hello Java" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+# Solution: Print "Hello javascript"
+[code-task title="Print "Hello javascript" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        System.out.print("Hello Java");
-    }
+function hello() {
+   console.log("Hello JavaScript");
 }
+
+hello();
 ```
 [/code-editor]
 [task-description]
-Write a Java program, which:
+Write a JavaScript program, which:
 
-Prints "Hello Java" on the console
+Prints "Hello JavaScript" on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -42,18 +42,18 @@ Prints "Hello Java" on the console
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
+function calculate() {
+   // Write your code here
 }
+
+calculate();
 ```
 [/code-editor]
 [task-description]
-Write a Java program, which:
+Write a JavaScript program, which:
 
 * Calculates the value of 5 * 5
 
@@ -65,18 +65,18 @@ Write a Java program, which:
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        System.out.print(5 * 5);
-    }
+function calculate() {
+   console.log(5 * 5);
 }
+
+calculate();
 ```
 [/code-editor]
 [task-description]
-Write a Java program, which:
+Write a JavaScript program, which:
 
 * Calculates the value of 5 * 5
 * Prints the result
@@ -87,15 +87,14 @@ Write a Java program, which:
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Name and Expression" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
+function nameAndExpression() {
+    // Write your code here
 }
 
+nameAndExpression();
 ```
 [/code-editor]
 [task-description]
@@ -114,15 +113,15 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Name and Expression" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Maria");
-        System.out.println(5 + 3);
-    }
+function nameAndExpression() {
+    console.log("Maria");
+    console.log(5 + 3);
 }
+
+nameAndExpression();
 ```
 [/code-editor]
 [task-description]
@@ -141,14 +140,14 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Calculations" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        // Write your code here
-    }
+function calculations() {
+    // Write your code here
 }
+
+calculations();
 ```
 [/code-editor]
 [task-description]
@@ -164,16 +163,16 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Calculations" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(5 + 3 * 2);
-        System.out.println(4 * (2 + 3));
-        System.out.println((2 + 5) * (8 - 2) / 7);
-    }
+function calculations() {
+    console.log(5 + 3 * 2);
+    console.log(4 * (2 + 3));
+    console.log((2 + 5) * (8 - 2) / 7);
 }
+
+calculations();
 ```
 [/code-editor]
 [task-description]
@@ -189,14 +188,16 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-  public static void main(String[] args) {
-      // Write code here
-    }
-}
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
 ```
 [/code-editor]
 [task-description]
@@ -217,20 +218,16 @@ Prints a square of 7 * 7 stars like this:
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
-[code-editor language=java]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="javascript-code" requiresInput]
+[code-editor language=javascript]
 ```
-public class Main {
-  public static void main(String[] args) {
-      System.out.println("* * * * * * *");
-      System.out.println("* * * * * * *");
-      System.out.println("* * * * * * *");
-      System.out.println("* * * * * * *");
-      System.out.println("* * * * * * *");
-      System.out.println("* * * * * * *");
-      System.out.println("* * * * * * *");
-    }
-}
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
+console.log("* * * * * * *");
 ```
 [/code-editor]
 [task-description]
