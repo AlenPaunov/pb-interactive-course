@@ -1,46 +1,40 @@
 [slide]
-# Problem: Print "Hello C#"
-[code-task title="Print "Hello C#"" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+# Problem: Print "Hello Java"
+[code-task title="Print "Hello Java" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-    {
-      // Write code here
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
     }
 }
 ```
 [/code-editor]
 [task-description]
-Write a C# program, which:
+Write a Java program, which:
 
-Prints "Hello C#" on the console
+Prints "Hello Java" on the console
 [/task-description]
 [code-io /]
 [/code-task]
 [/slide]
 
 [slide]
-# Solution: Print "Hello C#"
-[code-task title="Print "Hello C#" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+# Solution: Print "Hello Java"
+[code-task title="Print "Hello Java" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-class Program
-{
-  static void Main()
-  {
-    Console.WriteLine("Hello C#");
-  }
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Hello Java");
+    }
 }
 ```
 [/code-editor]
 [task-description]
-Write a C# program, which:
+Write a Java program, which:
 
-Prints "Hello C#" on the console
+Prints "Hello Java" on the console
 [/task-description]
 [code-io /]
 [/code-task]
@@ -48,23 +42,21 @@ Prints "Hello C#" on the console
 
 [slide]
 # Problem: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-    {
-      // Write code here
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
     }
 }
 ```
 [/code-editor]
 [task-description]
-Write a C# program, which:
+Write a Java program, which:
 
 * Calculates the value of 5 * 5
+
 * Prints the result
 [/task-description]
 [code-io /]
@@ -73,21 +65,18 @@ Write a C# program, which:
 
 [slide]
 # Solution: Calculate and Print 5 * 5
-[code-task title="Calculate and Print 5 * 5" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Calculate and Print 5 * 5" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-class Program
-{
-  static void Main()
-  {
-    Console.WriteLine(5 * 5);
-  }
+public class Main {
+    public static void main(String[] args) {
+        System.out.print(5 * 5);
+    }
 }
 ```
 [/code-editor]
 [task-description]
-Write a C# program, which:
+Write a Java program, which:
 
 * Calculates the value of 5 * 5
 * Prints the result
@@ -98,17 +87,15 @@ Write a C# program, which:
 
 [slide]
 # Problem: Name and Expression
-[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Name and Expression" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-    {
-      // Write code here
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
     }
 }
+
 ```
 [/code-editor]
 [task-description]
@@ -127,17 +114,14 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Solution: Name and Expression
-[code-task title="Name and Expression" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Name and Expression" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-class Program
-{
-  static void Main()
-  {
-    Console.WriteLine("Maria");
-    Console.WriteLine(5 + 3);
-  }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Maria");
+        System.out.println(5 + 3);
+    }
 }
 ```
 [/code-editor]
@@ -157,15 +141,12 @@ Write a program to print your name at the first line and calculate and print the
 
 [slide]
 # Problem: Calculations
-[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Calculations" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
-{
-  public static void Main()
-    {
-      // Write code here
+public class Main {
+    public static void main(String[] args) {
+        // Write your code here
     }
 }
 ```
@@ -183,19 +164,15 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Solution: Calculations
-[code-task title="Calculations" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Calculations" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-class Program
-{
-  static void Main()
-  {
-    Console.WriteLine(5 + 3 * 2);
-    Console.WriteLine(4 * (2 + 3));
-    Console.WriteLine(
-      (2 + 5) * (8 - 2) / 7);
-  }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(5 + 3 * 2);
+        System.out.println(4 * (2 + 3));
+        System.out.println((2 + 5) * (8 - 2) / 7);
+    }
 }
 ```
 [/code-editor]
@@ -212,14 +189,12 @@ Write a program, which calculates and prints the value of the following express
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
+public class Main
 {
-  public static void Main()
-    {
+  public static void main(String[] args) {
       // Write code here
     }
 }
@@ -243,21 +218,19 @@ Prints a square of 7 * 7 stars like this:
 
 [slide]
 # Problem: Square of 7 * 7 Stars
-[code-task title="Square of 7 * 7 Stars" executionStrategy="csharp-dot-net-core-code" requiresInput]
-[code-editor language=csharp]
+[code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
+[code-editor language=java]
 ```
-using System;
-public class Program
+public class Main
 {
-  public static void Main()
-    {
-      Console.WriteLine("* * * * * * *");
-      Console.WriteLine("* * * * * * *");
-      Console.WriteLine("* * * * * * *");
-      Console.WriteLine("* * * * * * *");
-      Console.WriteLine("* * * * * * *");
-      Console.WriteLine("* * * * * * *");
-      Console.WriteLine("* * * * * * *");
+  public static void main(String[] args) {
+      System.out.println("* * * * * * *");
+      System.out.println("* * * * * * *");
+      System.out.println("* * * * * * *");
+      System.out.println("* * * * * * *");
+      System.out.println("* * * * * * *");
+      System.out.println("* * * * * * *");
+      System.out.println("* * * * * * *");
     }
 }
 ```
