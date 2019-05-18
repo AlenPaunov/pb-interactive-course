@@ -3,32 +3,23 @@
 **Coding** means to give **commands** to tell the computer what to do
 
 Sample command:
-```java
-System.out.println("I am coding");
+```js
+console.log("I am coding");
 ```
 A **computer program** is a sequence of commands
-```java
-System.out.println("First command");
-System.out.println("Second command");
-System.out.println("Third command");
+```js
+console.log("First command");
+console.log("Second command");
+console.log("Third command");
 ```
 [/slide]
 
 [slide]
-# Commands in Java – Examples 
-Calculate an expression and print its value:
-```java
-System.out.println(5 + 5);
-```
-Plays the "A" sound (works in Windows only)
-```java
-System.out.println("softuni".contains("uni"));
-```
-Print the numbers from 1 to 100
-```java
-for (int i = 1; i <= 100; i++) 
-    System.out.println(i);
-```
+# Running JavaScript Commands
+The easiest way to run JavaScript commands (JS commands)
+
+The browser console: press \[F12\] in your Web browser
+
 [/slide]
 
 [slide]
@@ -52,19 +43,19 @@ Programmers use IDE (like IntelliJ IDEA) to:
 # Computer Program – Example
 Sample C# program (sequence of C# commands):
 
-```java
+```js
 int size = 5;
 System.out.println("Size = " + size);
 System.out.println("Area = " + size * size);
 ```
 
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-1.png"/]
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-1.png"/]
 [/slide]
 
 [slide]
 # Complete Computer Program
-Sample complete Java program (class + method + commands):
-```java
+Sample complete js program (class + method + commands):
+```js
 public class Main {
   public static void main(String[] args) {
     int size = 5;
@@ -77,9 +68,9 @@ public class Main {
 [/slide]
 
 [slide]
-# Console-Based Java Program – Example
+# Console-Based js Program – Example
 C# program, which converts from **USD** to **EUR**
-```java
+```js
 using System;
 
 class Program
