@@ -192,8 +192,7 @@ Write a program, which calculates and prints the value of the following express
 [code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-public class Main
-{
+public class Main {
   public static void main(String[] args) {
       // Write code here
     }
@@ -221,8 +220,7 @@ Prints a square of 7 * 7 stars like this:
 [code-task title="Square of 7 * 7 Stars" executionStrategy="java-code" requiresInput]
 [code-editor language=java]
 ```
-public class Main
-{
+public class Main {
   public static void main(String[] args) {
       System.out.println("* * * * * * *");
       System.out.println("* * * * * * *");
