@@ -1,8 +1,9 @@
 [slide]
-# What is Visual Studio?
-Visual Studio (VS) is powerful IDE for C# developers
+# What is IntelliJ IDEA?
+IntelliJ IDEA is a powerful IDE for Java developers
 
-For Windows and macOS
+Runs in Windows, Linux and macOS
+
 
 [image src="https://github.com/tany1610/programming-basics-interactive-csharp/blob/master/assets/intro-to-programming-4.png"/]
 [/slide]
