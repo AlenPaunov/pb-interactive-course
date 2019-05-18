@@ -1,53 +1,41 @@
 [slide]
 # Integrated Development Environments (IDE)
-Integrated Development Environments (**IDE**) simplify software development
+To write programs, we need an **IDE** (development environment)
 
-IDEs save time and eases the process of coding
+For **JavaScript**:
 
-* Writing, running, testing, and debugging the code
+* **Visual Studio Code** (free IDE)
+* **WebStorm** (paid IDE)
+* **Atom / Vim / NetBeans / Eclipse / Visual Studio**
 
-For Java programming, we shall use **IntelliJ IDEA Community**
-
-* Free, open-source IDE from JetBrains
-* https://jetbrains.com/idea
-[/slide]
-
-[slide]
-# Integrated Development Environments (IDE)
-To write programs, we need an IDE
-
-For **Java**:
-
-* **IntelliJ IDEA**
-* **Eclipse**
-* **NetBeans**
-
-For **C#**-> Visual Studio / Raider / VS Code
-
+For **Java** -> IntelliJ IDEA / Eclipse / NetBeans
 For **Python** -> PyCharm / Eclipse / VS Code
+For **C#** -> Visual Studio / Raider / VS Code
 
-For **JavaScript** -> WebStorm / VS Code
+Integrated Development Environments (IDE) simplify the software development
+
+IDEs save time and help developers
+
+* Writing, running, testing, and debugging the code + deployment
+
+For programming in JavaScript, we may use the Visual Studio Code IDE
+
+* Free code editor from Microsoft
 [/slide]
 
 [slide]
 # Development Environments: Desktop and Online
-Install JetBrains IntelliJ IDEA Community
 
-* https://www.jetbrains.com/idea/download/
-* You can use an older version, but better use the latest
+Install Visual Studio Code: https://code.visualstudio.com
 
 Alternative IDE (online)
+* JavaScript: directly use the browser console (press \[F12\] key)
 
-* Java: https://www.compilejava.net, https://repl.it/languages/java
+    * Or use https://playcode.io, https://repl.it/languages/nodejs, https://codesandbox.io, https://jsbin.com
+
 * C#: https://dotnetfiddle.net
+
+* Java: https://compilejava.net 
+
 * Python: https://repl.it
-* JavaScript: directly use the Web browser console (press \[F12\] key)
-[/slide]
-
-[slide]
-# Online Coding Environments (IDEs)
-The "Compile Java" Online IDE: https://compilejava.net
-
-[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-java-intro-to-programming/assets/intro-to-programming-2.png"/]
-
 [/slide]
