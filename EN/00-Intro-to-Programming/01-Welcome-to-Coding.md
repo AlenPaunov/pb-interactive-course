@@ -18,21 +18,39 @@ console.log("Third command");
 # Running JavaScript Commands
 The easiest way to run JavaScript commands (JS commands)
 
-The browser console: press \[F12\] in your Web browser
+The **browser console**: press \[F12\] in your Web browser
 
+[image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-1.png"/]
+[/slide]
+
+[slide]
+# Commands in JavaScript – Examples 
+Calculate an expression and print its value:
+```js
+console.log(5 + 5);
+```
+Calculate an area of rectangle:
+```js
+console.log(base * height / 2);
+```
+Print the numbers from 1 to 100
+```js
+for (let i = 1; i <= 100; i++)
+    console.log(i);
+```
 [/slide]
 
 [slide]
 # Programming and Algorithms 
 **Programming** means writing computer programs (commands)
 
-* Using certain **programming language**, such as C# or Python
+* Using certain **programming language**, such as JavaScript or Python
 
 **Algorithm** == a sequence of commands that achieves certain result
 
 Programming is done by **programmers** (developers)
 
-Programmers use IDE (like IntelliJ IDEA) to:
+Programmers use IDE (like Visual Studio Code) to:
 
 * **Write** the code
 * **Run** and test the code
@@ -41,7 +59,7 @@ Programmers use IDE (like IntelliJ IDEA) to:
 
 [slide]
 # Computer Program – Example
-Sample C# program (sequence of C# commands):
+Sample C# program (sequence of JavaScript commands):
 
 ```js
 int size = 5;
