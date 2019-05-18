@@ -4,11 +4,10 @@ What is Coding?
 
 * Commands and Programs
 
-The **Java** Language
+The JavaScript Language
 
-The **IntelliJ IDEA IDE**
+The Visual Studio Code
 
-* Installing IntelliJ IDEA Community
-
-* Writing **Java Console Apps**
+* Installing Node.js and VS Code
+* Writing and Running JavaScript Console Apps
 [/slide]
