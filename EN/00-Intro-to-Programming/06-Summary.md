@@ -4,10 +4,11 @@ What is Coding?
 
 * Commands and Programs
 
-The JavaScript Language
+The Python Language
 
-The Visual Studio Code
+The PyCharm
 
-* Installing Node.js and VS Code
-* Writing and Running JavaScript Console Apps
+* Installing PyCharm Community
+
+* Writing Python Console Apps
 [/slide]
