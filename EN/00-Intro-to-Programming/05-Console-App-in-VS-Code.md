@@ -1,8 +1,9 @@
 [slide]
-# Creating a Console Application in VS Code
-Create a folder for your project and open it from VS Code:
+# Creating a Console Application in PyCharm
+Start PyCharm
 
-\[File\] -> \[Open Folder\]
+Create Project: \[Create New Project\] -> \[Project Location\] -> \[Create\] 
+
 
 [image src="https://github.com/AlenPaunov/pb-interactive-course/blob/00-js-intro-to-programming/assets/intro-to-programming-4.png"/]
 
