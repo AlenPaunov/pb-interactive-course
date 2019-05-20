@@ -11,11 +11,13 @@ Data types:
 * **boolean** - a boolean: true, false
 * **char** - a symbol: 'a', 'b', '#'…
 * **String** - text: "Hello", "World"…
+
 [/slide]
 
 [slide]
 # Data Types
 Sets (ranges) of values with similar characteristics
+
 Data types are characterized by:
 * **Name**
     * Example: boolean, int, String
@@ -23,4 +25,5 @@ Data types are characterized by:
     * Example: 4 bytes
 * **Default value**
     * Example: 0
+
 [/slide]
