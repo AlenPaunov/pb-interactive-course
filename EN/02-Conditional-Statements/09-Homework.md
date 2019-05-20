@@ -2,7 +2,7 @@
 # Problem: Guess the Password
 [code-task title="Guess the Password" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function guessThePassword(password) {
     // Write your code here
 }
@@ -21,13 +21,14 @@ Write a function, which:
 |-----|------|
 |s3cr3t!|Welcome|
 |qwerty|Wrong password!|
+
 [/slide]
 
 [slide]
 # Solution: Guess the Password
 [code-task title="Guess the Password" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function guessThePassword(password) {
    if (password == "s3cr3t!") {
      console.log("Welcome");
@@ -39,6 +40,7 @@ function guessThePassword(password) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a string that is a **password**
 * Prints "**Welcome**" if the password is "**s3cr3t!**"
 * Prints "**Wrong password!**" in all other cases 
@@ -50,13 +52,14 @@ Write a function, which:
 |-----|------|
 |s3cr3t!|Welcome|
 |qwerty|Wrong password!|
+
 [/slide]
 
 [slide]
 # Problem: Boiling Water
 [code-task title="Boiling Water" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function boilingWater(degrees) {
     // Write your code here
 }
@@ -64,9 +67,10 @@ function boilingWater(degrees) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a **number**: the water temperature (in °C)
 * Prints "**The water is boiling**" if the number > 100
-* Prints "**The water is not hot enough**" in all other cases 
+* Prints "**The water is not hot enough**" in all other cases
 [/task-description]
 [code-io /]
 [/code-task]
@@ -75,13 +79,14 @@ Write a function, which:
 |-----|------|
 |104.8|The water is boiling|
 |29|The water is not hot enough|
+
 [/slide]
 
 [slide]
 # Solution: Boiling Water
 [code-task title="Boiling Water" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function boilingWater(degrees) {
    if (degrees > 100) {
       console.log("The water is boiling"); 
@@ -92,10 +97,11 @@ function boilingWater(degrees) {
 ```
 [/code-editor]
 [task-description]
-Write a function, which: 
+Write a function, which:
+
 * Receives a **number**: the water temperature (in °C)
 * Prints "**The water is boiling**" if the number > 100
-* Prints "**The water is not hot enough**" in all other cases 
+* Prints "**The water is not hot enough**" in all other cases
 [/task-description]
 [code-io /]
 [/code-task]
@@ -104,13 +110,14 @@ Write a function, which:
 |-----|------|
 |104.8|The water is boiling|
 |29|The water is not hot enough|
+
 [/slide]
 
 [slide]
 # Problem: Speed Info
 [code-task title="Speed Info" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function speedInfo(speed) {
     // Write your code here
 }
@@ -118,6 +125,7 @@ function speedInfo(speed) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a number (**speed**)
 * Prints "**Slow**" if the number **<=** 30
 * Prints "**Fast**" if the number **>** 30
@@ -129,13 +137,14 @@ Write a function, which:
 |-----|------|
 |30|Slow|
 |60|Fast|
+
 [/slide]
 
 [slide]
 # Solution: Speed Info
 [code-task title="Speed Info" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function speedInfo(speed) {
    if (speed <= 30) {
       console.log("Slow");
@@ -146,7 +155,8 @@ function speedInfo(speed) {
 ```
 [/code-editor]
 [task-description]
-Write a function, which: 
+Write a function, which:
+
 * Receives a number (**speed**)
 * Prints "**Slow**" if the number **<=** 30
 * Prints "**Fast**" if the number **>** 30
@@ -158,20 +168,22 @@ Write a function, which:
 |-----|------|
 |30|Slow|
 |60|Fast|
+
 [/slide]
 
 [slide]
 # Problem: Area of Figures
 [code-task title="Area of Figures" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function areaOfFigures(figure, side) {
     // Write your code here
 }
 ```
 [/code-editor]
 [task-description]
-Write a function, which: 
+Write a function, which:
+
 * Receives a type of figure (**string**)
 * Receives a **number** 
 * Checks if the figure is **square** or **circle**
@@ -182,14 +194,16 @@ Write a function, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|"square", 5|25.00|
+|"square"|25.00|
+|5||
+
 [/slide]
 
 [slide]
 # Solution: Area of Figures
 [code-task title="Area of Figures" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function areaOfFigures(figure, side) {
    let area = 0;
    if (figure === 'square') {
@@ -202,6 +216,7 @@ function areaOfFigures(figure, side) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a type of figure (**string**)
 * Receives a **number** 
 * Checks if the figure is **square** or **circle**
@@ -212,14 +227,15 @@ Write a function, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|"square", 5|25.00|
+|"square"|25.00|
+|5||
 [/slide]
 
 [slide]
 # Problem: Tickets
 [code-task title="Tickets" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function tickets(ticketType) {
     // Write your code here
 }
@@ -227,8 +243,9 @@ function tickets(ticketType) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a **ticket type** - either "**student**" or "**regular**"
-* Prints the price in the following format: "**$**\{**price**\}" 
+* Prints the price in the following format: "$\{price\}" 
     * Student ticket is 1.60
     * Regular ticket is 1.00
     * For invalid type "**Invalid ticket type!**"
@@ -240,6 +257,7 @@ Write a function, which:
 |-----|------|
 |student|$1.00|
 |regular|$1.60|
+
 [/slide]
 
 
@@ -247,7 +265,7 @@ Write a function, which:
 # Solution: Tickets
 [code-task title="Tickets" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function tickets(ticketType) {
    if (ticketType === 'student') {
       console.log('$1.00');
@@ -261,8 +279,9 @@ function tickets(ticketType) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a **ticket type** - either "**student**" or "**regular**"
-* Prints the price in the following format: "**$**\{**price**\}" 
+* Prints the price in the following format: "$\{price\}" 
     * Student ticket is 1.60
     * Regular ticket is 1.00
     * For invalid type "**Invalid ticket type!**"
@@ -274,13 +293,14 @@ Write a function, which:
 |-----|------|
 |student|$1.00|
 |regular|$1.60|
+
 [/slide]
 
 [slide]
 # Problem: Coffee Shop
 [code-task title="Coffee Shop" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function coffeeShop(order, extra) {
     // Write your code here
 }
@@ -288,10 +308,13 @@ function coffeeShop(order, extra) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a drink - either "**coffee**" or "**tea**"
 * Receives an **extra** - either "**sugar**" or "**no**"
-* Prints a price in format "**Final price: ${price}**"
+* Prints a price in format "Final price: $\{price\}"
+
 Prices
+
 * Coffee - 1.00
 * Tea - 0.60
 * Sugar - 0.40
@@ -301,15 +324,21 @@ Prices
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|coffee, sugar|$1.40|
-|tea, no|$0.60|
+|coffee|$1.40|
+|sugar||
+
+|Input|Output|
+|-----|------|
+|tea|$0.60|
+|no||
+
 [/slide]
 
 [slide]
 # Solution: Coffee Shop
 [code-task title="Coffee Shop" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function coffeeShop(order, extra) {
    let price = 0;
    if (order === 'coffee')
@@ -324,10 +353,13 @@ function coffeeShop(order, extra) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives a drink - either "**coffee**" or "**tea**"
 * Receives an **extra** - either "**sugar**" or "**no**"
-* Prints a price in format "**Final price: ${price}**"
+* Prints a price in format "Final price: ${price}"
+
 Prices
+
 * Coffee - 1.00
 * Tea - 0.60
 * Sugar - 0.40
@@ -337,22 +369,28 @@ Prices
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|coffee, sugar|$1.40|
-|tea, no|$0.60|
+|coffee|$1.40|
+|sugar||
+
+|Input|Output|
+|-----|------|
+|tea|$0.60|
+|no||
 [/slide]
 
 [slide]
 # Problem: Valid Triangle
 [code-task title="Valid Triangle" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function validTriangle(a, b, c) {
     // Write your code here
 }
 ```
 [/code-editor]
 [task-description]
-Write a function, which: 
+Write a function, which:
+
 * Receives **3 numbers** - the **sides** of a **triangle**
 * Checks if each **side** is **lesser** than the **sum** of the **other 2**
 * Prints "**Valid Triangle**" if the above condition is met
@@ -363,14 +401,16 @@ Write a function, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|3, 4, 5|Valid Triangle|
+|3|Valid Triangle|
+|4||
+|5||
 [/slide]
 
 [slide]
 # Solution: Valid Triangle
 [code-task title="Valid Triangle" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
-```js
+```
 function validTriangle(a, b, c) {
    let isValidTriangle = true;
    if (a + b <= c)
@@ -385,6 +425,7 @@ function validTriangle(a, b, c) {
 [/code-editor]
 [task-description]
 Write a function, which: 
+
 * Receives **3 numbers** - the **sides** of a **triangle**
 * Checks if each **side** is **lesser** than the **sum** of the **other 2**
 * Prints "**Valid Triangle**" if the above condition is met
@@ -395,5 +436,7 @@ Write a function, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|3, 4, 5|Valid Triangle|
+|3|Valid Triangle|
+|4||
+|5||
 [/slide]
