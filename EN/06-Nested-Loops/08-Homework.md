@@ -1,4 +1,11 @@
 [slide]
+# Homework
+Now, it's your turn to practice what you have learned in the training session.
+
+We have prepared some simple problems for you to solve. If you struggle you can see the solution after each problem. 
+[/slide]
+
+[slide]
 # Problem: Building
 [code-task title="Building" executionStrategy="javascript-code" requiresInput]
 [code-editor language=javascript]
@@ -82,8 +89,8 @@ function stupidPasswords(n) {
 [/code-editor]
 [task-description]
 Write a program, which **generates all possible passwords**, consisting of the following 3 parts:
-* The **first** part is an **even** number in the range [2…n]
-* The **second** digit is an **odd** number in the range [1…n]
+* The **first** part is an **even** number in the range \[2…n\]
+* The **second** digit is an **odd** number in the range \[1…n\]
 * The **third** is the **product** of the first two
 [/task-description]
 [code-io /]
@@ -114,8 +121,8 @@ function stupidPasswords(n) {
 [/code-editor]
 [task-description]
 Write a program, which **generates all possible passwords**, consisting of the following 3 parts:
-* The **first** part is an **even** number in the range [2…n]
-* The **second** digit is an **odd** number in the range [1…n]
+* The **first** part is an **even** number in the range \[2…n\]
+* The **second** digit is an **odd** number in the range \[1…n\]
 * The **third** is the **product** of the first two
 [/task-description]
 [code-io /]
@@ -196,7 +203,7 @@ function travelling(inputLines) {
 Write a function, which calculates the **money collection** for multiple travel destinations. It:
 * Reads **destination** and **needed budget** for destination
 * Reads many times amounts of collected money, until they are **enough** for the destination
-* Prints "**Collected: {sum}**" or "**Going to {destination}**"
+* Prints "Collected: \{sum\}" or "Going to \{destination\}"
 * Reads another destination and budget and collect money again
 * Ends the program when a destination "**End**" is received
 [/task-description]
@@ -239,7 +246,7 @@ function travelling(inputLines) {
 Write a function, which calculates the **money collection** for multiple travel destinations. It:
 * Reads **destination** and **needed budget** for destination
 * Reads many times amounts of collected money, until they are **enough** for the destination
-* Prints "**Collected: {sum}**" or "**Going to {destination}**"
+* Prints "Collected: \{sum\}" or "Going to \{destination\}"
 * Reads another destination and budget and collect money again
 * Ends the program when a destination "**End**" is received
 [/task-description]
