@@ -36,7 +36,16 @@ Write a function to print the numbers from N down to 1
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|10|10, 9, 8, 7, 6, 5, 4, 3, 2, 1|
+|10|10|
+||9|
+||8|
+||7|
+||6|
+||5|
+||4|
+||3|
+||2|
+||1|
 [/slide]
 
 [slide]
@@ -66,7 +75,16 @@ Write a function to print the numbers from N down to 1
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|10|10, 9, 8, 7, 6, 5, 4, 3, 2, 1|
+|10|10|
+||9|
+||8|
+||7|
+||6|
+||5|
+||4|
+||3|
+||2|
+||1|
 [/slide]
 
 [slide]
@@ -91,7 +109,9 @@ Write a function to print the even powers of 2:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|3|1, 4, 16|
+|3|1|
+||4|
+||16|
 [/slide]
 
 [slide]
@@ -124,5 +144,7 @@ Write a function to print the even powers of 2:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|3|1, 4, 16|
+|3|1|
+||4|
+||16|
 [/slide]

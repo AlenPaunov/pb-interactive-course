@@ -1,6 +1,6 @@
 [slide]
 # While Loop
-Control flow **statement **
+Control flow **statement**
 
 * Executes code repeatedly while a condition is true
 ```js
