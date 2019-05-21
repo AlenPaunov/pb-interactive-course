@@ -340,9 +340,9 @@ function pinCodes(max1, max2, max3) {
 Write a function to **generate PIN codes** following certain rules. It: 
 * Receives **3 digits**: **max1**, **max2**, **max3** (each is an upper limit)
 * Generates unique 3-digit **PIN codes**, matching the following:
-    * Each digit is **within its range**: [1..max1], [1..max2], [1..max3]
+    * Each digit is **within its range**: \[1..max1\], \[1..max2\], \[1..max3\]
     * The **first** and the **third digit** must be **even**
-    * The **second digit** must be a **prime number** in the range [2…7]
+    * The **second digit** must be a **prime number** in the range \[2…7\]
 * Prints the PIN codes in increasing order
 [/task-description]
 [code-io /]
@@ -377,9 +377,9 @@ function pinCodes(max1, max2, max3) {
 Write a function to **generate PIN codes** following certain rules. It: 
 * Receives **3 digits**: **max1**, **max2**, **max3** (each is an upper limit)
 * Generates unique 3-digit **PIN codes**, matching the following:
-    * Each digit is **within its range**: [1..max1], [1..max2], [1..max3]
+    * Each digit is **within its range**: \[1..max1\], \[1..max2\], \[1..max3\]
     * The **first** and the **third digit** must be **even**
-    * The **second digit** must be a **prime number** in the range [2…7]
+    * The **second digit** must be a **prime number** in the range \[2…7\]
 * Prints the PIN codes in increasing order
 [/task-description]
 [code-io /]
@@ -408,7 +408,7 @@ function lettersCombinations(start, end, x) {
 [task-description]
 Write a function to generate **3-letter combinations** under certain conditions.It: 
 * Receives a start letter **s**, end letter **e** and excluded letter **x**
-* Prints all **combinations of 3 letters** in the range [s…e], excluding **x**, and their **count**
+* Prints all **combinations of 3 letters** in the range \[s…e\], excluding **x**, and their **count**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -443,7 +443,7 @@ function lettersCombinations(start, end, x) {
 [task-description]
 Write a function to generate **3-letter combinations** under certain conditions.It: 
 * Receives a start letter **s**, end letter **e** and excluded letter **x**
-* Prints all **combinations of 3 letters** in the range [s…e], excluding **x**, and their **count**
+* Prints all **combinations of 3 letters** in the range \[s…e\], excluding **x**, and their **count**
 [/task-description]
 [code-io /]
 [/code-task]
@@ -466,7 +466,7 @@ function happyNumbers(n) {
 ```
 [/code-editor]
 [task-description]
-Write a function to generate all **4-digit happy numbers {d1}{d2}{d3}{d4}** for given a integer **n**
+Write a function to generate all 4-digit happy numbers \{d1\}\{d2\}\{d3\}\{d4\} for given a integer **n**
 * A number is happy if **d1** + **d2** == **d3** + **d4** == **n**
 [/task-description]
 [code-io /]
@@ -497,7 +497,7 @@ function happyNumbers(n) {
 ```
 [/code-editor]
 [task-description]
-Write a function to generate all **4-digit happy numbers {d1}{d2}{d3}{d4}** for given a integer **n**
+Write a function to generate all 4-digit happy numbers \{d1\}\{d2\}\{d3\}\{d4\} for given a integer **n**
 * A number is happy if **d1** + **d2** == **d3** + **d4** == **n**
 [/task-description]
 [code-io /]
