@@ -49,7 +49,7 @@ Write a program to add bonus to given points
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|4|9|
+|4|19|
 [/slide]
 
 [slide]
@@ -92,7 +92,7 @@ Write a program to add bonus to given points
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|4|9|
+|4|19|
 [/slide]
 
 [slide]
