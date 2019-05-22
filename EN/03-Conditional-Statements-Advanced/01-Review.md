@@ -2,7 +2,7 @@
 # Comparison Operators
 Suitable for **numbers** and other **comparable data types**
 
-* Equal to (**=****=**)
+* Equal to (==)
 * Not equal to **(!=)**
 * Greater than **(>)**
 * Greater than or equal to **(>=)**
