@@ -178,10 +178,10 @@ for i in range(0, n):
   if i > 0:
     if max_diff < abs(prev_sum - a - b):
       max_diff = abs(prev_sum - a - b)
-    if areEqual and a + b != prev_sum: 
-      areEqual = False
+    if are_equal and a + b != prev_sum: 
+      are_equal = False
   prev_sum = a + b
-if areEqual:
+if are_equal:
   print(f"Yes, value={prev_sum}")
 else:
   print(f"No, maxdiff={max_diff}")
@@ -395,9 +395,9 @@ for i in range(0, n):
 result_P1 = (p1 / n) * 100;
 result_P2 = (p2 / n) * 100;
 result_P3 = (p3 / n) * 100;
-print(f"result_P1:.2f%")
-print(f"result_P2:.2f%")
-print(f"result_P3:.2f%")
+print(f"{}result_P1:.2f}%")
+print(f"{}result_P2:.2f}%")
+print(f"{}result_P3:.2f}%")
 ```
 [/code-editor]
 [task-description]
@@ -550,7 +550,7 @@ for i in range(0, people_count):
   person_age = int(input())
   if person_age >= min_age and rollercoaster_places > valid_people_count:
       valid_people_count+=1
-if valid_people_count == rollercoaster_paces:
+if valid_people_count == rollercoaster_places:
   print("The rollercoaster departures")
 else:
   print("Waiting...")
