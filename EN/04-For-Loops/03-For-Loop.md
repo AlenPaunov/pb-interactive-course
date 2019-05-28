@@ -44,19 +44,22 @@ for char in "John":
 
 # Problem: Characters
 
-[code-task title="Characters" executionStrategy="python-code" requiresInput][code-editor language=python]
+[code-task title="Characters" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 
 ```
 # Write your code here
 ```
 
-[/code-editor][task-description]
+[/code-editor]
+[task-description]
 Write a program, which:
 
 - Receives a single string
 - Print each character of that string on a new line
 
-[/task-description][code-io /]
+[/task-description]
+[code-io /]
 [/code-task]
 
 # Sample Input and Output
@@ -75,7 +78,8 @@ Write a program, which:
 
 # Solution: Characters
 
-[code-task title="Characters" executionStrategy="python-code" requiresInput][code-editor language=python]
+[code-task title="Characters" executionStrategy="python-code" requiresInput]
+[code-editor language=python]
 
 ```
 text = input()
@@ -83,13 +87,15 @@ for char in text:
   print(char)
 ```
 
-[/code-editor][task-description]
+[/code-editor]
+[task-description]
 Write a program, which:
 
 - Receives a single string
 - Print each character of that string on a new line
 
-[/task-description][code-io /]
+[/task-description]
+[code-io /]
 [/code-task]
 
 # Sample Input and Output
