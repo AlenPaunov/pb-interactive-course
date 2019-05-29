@@ -96,7 +96,7 @@ Write a program, which:
 [code-editor language=python]
 ```
 num = int(input())
-while num < 1 || num > 100":
+while num < 1 or num > 100:
   num = int(input())
 print(num)
 ```
