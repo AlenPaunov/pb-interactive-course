@@ -94,7 +94,7 @@ n = int(input())
 sum = 0
 while n > 0:
    sum += n % 10
-   n /= 10;
+   n = int(n / 10);
 print(sum);
 ```
 [/code-editor]
@@ -192,7 +192,7 @@ Write a program, which:
 |-----|------|
 |10|Max number: 304|
 |20|Min number: 0|
-|30||
+|304||
 |0||
 |50||
 |END||
@@ -204,6 +204,7 @@ Write a program, which:
 [code-editor language=python]
 ```
 import math
+
 line = input()
 min = math.inf
 max = -math.inf
@@ -231,7 +232,7 @@ Write a program, which:
 |-----|------|
 |10|Max number: 304|
 |20|Min number: 0|
-|30||
+|304||
 |0||
 |50||
 |END||
@@ -319,7 +320,7 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|25|36.00|
+|25|36.0|
 |20||
 |30||
 |25||
@@ -354,7 +355,7 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|25|36.00|
+|25|36.0|
 |20||
 |30||
 |25||
@@ -438,7 +439,7 @@ Write a program, which:
 |-----|------|
 |3|Increase: 5.51|
 |5.51|Increase: 69.42|
-|69.42|Increase: 100|
+|69.42|Increase: 100.00|
 |100|Total: 174.93|
 [/slide]
 
@@ -471,7 +472,7 @@ Write a program, which:
 |-----|------|
 |3|Increase: 5.51|
 |5.51|Increase: 69.42|
-|69.42|Increase: 100|
+|69.42|Increase: 100.00|
 |100|Total: 174.93|
 [/slide]
 
@@ -514,15 +515,13 @@ max_num = int(input())
 curr_num = min_num
 while curr_num >= min_num and curr_num <= max_num:
     cubes_sum = 0
-    cubes = 0
     curr_num_copy = curr_num
     while curr_num_copy != 0:
-        cubes += math.floor(curr_num_copy % 10)**3
+        cubes_sum += math.floor(curr_num_copy % 10)**3
         curr_num_copy = math.floor(curr_num_copy / 10)
     if cubes_sum == curr_num:
         print(curr_num)
     curr_num += 1
-
 ```
 [/code-editor]
 [task-description]
