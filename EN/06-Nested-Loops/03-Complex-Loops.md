@@ -103,7 +103,7 @@ Write a program which:
 [code-task title="Numbers with Step 3" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-n = int(input)
+n = int(input())
 for i in range(1, n + 1, 3):
   print(i)
 ```
