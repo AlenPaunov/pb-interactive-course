@@ -156,7 +156,7 @@ Write a program, which:
 ```
 n = int(input())
 num = 1
-for i in range(1, n + 1, 2): 
+for i in range(0, n + 1, 2): 
   print(num)
   num = num * 2 * 2
 ```
@@ -174,5 +174,4 @@ Write a program, which:
 |-----|------|
 |3|1|
 ||4|
-||16|
 [/slide]
