@@ -46,11 +46,11 @@ rooms = int(input())
 for i in range(floors, 0, -1):
   for j in range(0, rooms):
     if i == floors:
-      print(f"L{i}{j}" end="") 
-    if i % 2 == 0:
-      print(f"O{i}{j}" end="")
-    if i % 2 == 1:
-      print(f"A{i}{j}" end="")
+      print(f"L{i}{j}", end=" ") 
+    elif i % 2 == 0:
+      print(f"O{i}{j}", end=" ")
+    elif i % 2 == 1:
+      print(f"A{i}{j}", end=" ")
   print()
 ```
 [/code-editor]
@@ -110,7 +110,7 @@ n = int(input())
 for i in range(1, n + 1):
   for j in range(1, n + 1):
     if i % 2 == 0 and j % 2 != 0:
-      print(f"{i}{j}{i * j} ", end="")
+      print(f"{i}{j}{i * j} ", end=" ")
 ```
 [/code-editor]
 [task-description]
@@ -167,7 +167,7 @@ Find all 3-digit numbers, which:
 magic_number = int(input())
 for i in range(1, 10):
   for j in range(1, 10):
-    for j in range(1, 10):
+    for k in range(1, 10):
       if i * j * k == magic_number:
         print(f"{i}{j}{k}")
 ```
@@ -224,12 +224,17 @@ Write a program, which:
 [code-task title="Travelling" executionStrategy="python-code" requiresInput]
 [code-editor language=python]
 ```
-town_name = ""
+town_name = input()
 current_money = 0
-while townName = input() != "End": 
-  needed_money = float(input())
+needed_money = float(input())
+new_money = float(input())
+while new_money != "End":
+  new_money = float(new_money)
+  current_money += new_money
   if current_money >= needed_money:
     print(f"Going to {town_name}")
+    break
+  new_money = input()
 ```
 [/code-editor]
 [task-description]
@@ -280,6 +285,7 @@ Print the prime number in that range
 [code-editor language=python]
 ```
 import math
+
 n = int(input())
 m = int(input())
 
@@ -293,7 +299,7 @@ for num in range(n, m + 1):
       break
     divider += 1
   if prime:
-    print(num)
+    print(num, end=" ")
 ```
 [/code-editor]
 [task-description]
@@ -379,9 +385,15 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|a|aaa aac aca acc caa cac cca ccc|
-|b||
-|c||
+|a|aaa|
+|b|aac|
+|c|aca|
+||acc|
+||caa|
+||cac|
+||cca|
+||ccc|
+||8|
 [/slide]
 
 [slide]
@@ -396,8 +408,8 @@ counter = 0
 for first in range(ord(start_letter), ord(end_letter) + 1):
   for second in range(ord(start_letter), ord(end_letter) + 1):       
     for third in range(ord(start_letter), ord(end_letter) + 1):      
-      if first != avoid_letter and second != avoid_letter and third != avoid_letter:
-        print(f"{first}{second}{third}")
+      if chr(first) != avoid_letter and chr(second) != avoid_letter and chr(third) != avoid_letter:
+        print(f"{chr(first)}{chr(second)}{chr(third)}")
         counter += 1
 print(counter)
 ```
@@ -414,9 +426,15 @@ Write a program, which:
 # Sample Input and Output
 |Input|Output|
 |-----|------|
-|a|aaa aac aca acc caa cac cca ccc|
-|b||
-|c||
+|a|aaa|
+|b|aac|
+|c|aca|
+||acc|
+||caa|
+||cac|
+||cca|
+||ccc|
+||8|
 [/slide]
 
 [slide]
